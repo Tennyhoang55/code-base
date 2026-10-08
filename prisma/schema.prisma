@@ -1,0 +1,12 @@
+// Prisma ORM 7 schema. Datasource URL lives in prisma.config.ts (CLI) and
+// lib/db.ts (runtime, via the Neon driver adapter).
+// Docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
