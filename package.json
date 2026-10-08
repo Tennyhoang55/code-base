@@ -2,7 +2,6 @@
   "name": "code-base",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,22 +14,15 @@
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
     "db:deploy": "prisma migrate deploy",
-    "db:studio": "prisma studio",
-    "db:seed": "node --conditions=react-server --import tsx prisma/seed.ts",
-    "test": "node --conditions=react-server --import tsx --test tests/*.test.ts",
-    "test:e2e": "playwright test"
+    "db:studio": "prisma studio"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
-    "@neon/config": "^1.8.4",
-    "@neon/env": "^1.5.1",
     "@neondatabase/serverless": "1.2.0",
     "@prisma/adapter-neon": "7.10.0",
     "@prisma/client": "7.10.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "csv-parse": "^7.0.3",
-    "exceljs": "^4.4.0",
     "lucide-react": "^1.52.0",
     "next": "16.4.0",
     "react": "19.3.0",
@@ -43,7 +35,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.15",
-    "@playwright/test": "^1.64.0",
     "@tailwindcss/postcss": "4.3.3",
     "@types/node": "^24.19.1",
     "@types/react": "^19",
@@ -51,7 +42,6 @@
     "dotenv": "^18.0.6",
     "prisma": "7.10.0",
     "tailwindcss": "^4",
-    "tsx": "^4.23.15",
     "typescript": "^5"
   },
   "packageManager": "pnpm@10.34.6",
