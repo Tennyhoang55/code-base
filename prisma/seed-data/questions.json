@@ -1,0 +1,2684 @@
+{
+  "version": "2026-10",
+  "source": "Cẩm nang đào tạo Sales Freight Forwarder – Sunway Logistics, phiên bản 2026",
+  "note": "options[0] luôn là đáp án đúng trong file nguồn; ứng dụng phải xáo trộn khi hiển thị",
+  "topics": [
+    {
+      "id": "c01",
+      "code": "01",
+      "part": "Phần mở đầu · Bức tranh ngành",
+      "title": "Chuỗi giá trị ngành logistics",
+      "sort": 1,
+      "questions": [
+        {
+          "id": "c01-q01",
+          "text": "Ba dòng chảy luôn chạy song song trong một lô hàng xuất nhập khẩu là gì?",
+          "options": [
+            "Dòng hàng, dòng chứng từ, dòng tiền",
+            "Dòng hàng, dòng thông tin, dòng nhân lực",
+            "Dòng vận tải, dòng kho bãi, dòng hải quan",
+            "Dòng sản xuất, dòng phân phối, dòng tiêu dùng"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 1.1: hàng và chứng từ đi từ người bán sang người mua; tiền đi theo chiều ngược lại."
+        },
+        {
+          "id": "c01-q02",
+          "text": "Theo sách, rất nhiều sự cố khách hàng gặp phải nằm ở đâu?",
+          "options": [
+            "Ở dòng chứng từ và dòng tiền",
+            "Ở dòng hàng trên biển",
+            "Ở khâu trucking nội địa",
+            "Ở khâu đóng hàng tại kho"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 1.1: nhiều sự cố không nằm ở dòng hàng mà ở dòng chứng từ và dòng tiền. Sales giỏi nhìn thấy cả ba dòng."
+        },
+        {
+          "id": "c01-q03",
+          "text": "Trong chuỗi giá trị, dòng tiền đi theo chiều nào so với dòng hàng?",
+          "options": [
+            "Ngược chiều: người mua trả người bán, chủ hàng trả forwarder, forwarder trả hãng tàu, cảng, nhà xe, đại lý",
+            "Cùng chiều với dòng hàng",
+            "Chỉ đi giữa forwarder và hãng tàu",
+            "Từ hãng tàu về chủ hàng"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 1.1 và Hình 2."
+        },
+        {
+          "id": "c01-q04",
+          "text": "Mô hình chủ hàng thuê một công ty lo trọn nhiều khâu (vận tải, kho, thủ tục hải quan) theo hợp đồng gọi là gì?",
+          "options": ["3PL", "1PL", "2PL", "5PL"],
+          "correct_index": 0,
+          "explanation": "Mục 1.3: 1PL tự làm, 2PL thuê từng dịch vụ riêng lẻ, 3PL thuê lo trọn nhiều khâu theo hợp đồng."
+        },
+        {
+          "id": "c01-q05",
+          "text": "Phần lớn forwarder Việt Nam, trong đó có Sunway, hoạt động ở mức nào?",
+          "options": ["2PL – 3PL", "1PL", "4PL", "5PL"],
+          "correct_index": 0,
+          "explanation": "Mục 1.3."
+        },
+        {
+          "id": "c01-q06",
+          "text": "4PL là gì?",
+          "options": [
+            "Đơn vị tư vấn, thiết kế và quản lý toàn bộ chuỗi cung ứng cho khách, điều phối cả các 3PL khác",
+            "Chủ hàng thuê từng dịch vụ riêng lẻ",
+            "Chủ hàng tự làm logistics bằng xe, kho của mình",
+            "Quản lý chuỗi cung ứng bằng nền tảng công nghệ, gom nhu cầu nhiều chủ hàng"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 1.3. Phương án cuối là định nghĩa 5PL."
+        },
+        {
+          "id": "c01-q07",
+          "text": "Theo đánh giá nội bộ Sunway, khoảng bao nhiêu phần trăm lợi nhuận ngành giao nhận đến từ cước vận chuyển (Sea, Air, LCL)?",
+          "options": ["Khoảng 70%", "Khoảng 30%", "Khoảng 50%", "Khoảng 90%"],
+          "correct_index": 0,
+          "explanation": "Mục 1.4. Các dịch vụ khác (hải quan, trucking, kho) thường đi kèm để giữ khách và tăng giá trị lô hàng."
+        },
+        {
+          "id": "c01-q08",
+          "text": "Chiến lược sản phẩm của Sunway là gì?",
+          "options": [
+            "Lấy cước biển làm mũi nhọn, rồi chuyên môn hóa thủ tục hải quan và trucking để bán trọn gói",
+            "Tập trung cước hàng không làm sản phẩm chính",
+            "Lấy kho bãi làm sản phẩm chủ lực",
+            "Làm tất cả dịch vụ với mức ưu tiên ngang nhau"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 1.4 và 7.1."
+        },
+        {
+          "id": "c01-q09",
+          "text": "Nhóm ngành hạ tầng (cảng biển, kho bãi, ICD) có ý nghĩa gì với sales forwarder?",
+          "options": [
+            "Phát sinh phụ phí như THC, lưu bãi, lưu container mà khách rất quan tâm",
+            "Là nhà cung cấp chính quyết định giá cước mình báo",
+            "Là sân chơi chính của Sunway",
+            "Ít ảnh hưởng đến chi phí của khách"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 1.2, bảng bốn nhóm ngành."
+        },
+        {
+          "id": "c01-q10",
+          "text": "Forwarder khác hãng tàu ở điểm nào về tài sản và nguồn thu?",
+          "options": [
+            "Forwarder không sở hữu tàu, cảng; tài sản là con người, mạng lưới đại lý, hệ thống; thu từ chênh lệch cước và phí dịch vụ",
+            "Forwarder sở hữu tàu nhưng không sở hữu cảng",
+            "Forwarder thu chủ yếu từ phí xếp dỡ tại cảng",
+            "Forwarder thu từ phí giao hàng theo đơn như công ty chuyển phát"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 1.2: forwarder là nhạc trưởng điều phối các mắt xích thay mặt chủ hàng."
+        }
+      ]
+    },
+    {
+      "id": "c02",
+      "code": "02",
+      "part": "Phần mở đầu · Bức tranh ngành",
+      "title": "Freight forwarder – nghề của chúng ta",
+      "sort": 2,
+      "questions": [
+        {
+          "id": "c02-q01",
+          "text": "Sách ví forwarder là gì của lô hàng?",
+          "options": [
+            "“Kiến trúc sư”: không sở hữu phương tiện nhưng thiết kế phương án, mua dịch vụ và chịu trách nhiệm trước chủ hàng",
+            "Người trực tiếp chở hàng",
+            "Ngân hàng trung gian thanh toán",
+            "Cơ quan kiểm tra chuyên ngành"
+          ],
+          "correct_index": 0,
+          "explanation": "Phần mở đầu Chương 2."
+        },
+        {
+          "id": "c02-q02",
+          "text": "Forwarder phát hành loại vận đơn nào cho chủ hàng?",
+          "options": [
+            "House B/L (HBL)",
+            "Master B/L (MBL)",
+            "Delivery Order (D/O)",
+            "Arrival Notice"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 2.1 và 5.1: HBL do forwarder phát hành; MBL do hãng tàu phát hành."
+        },
+        {
+          "id": "c02-q03",
+          "text": "Muốn đứng tên khai hải quan thay khách, doanh nghiệp phải đáp ứng điều kiện gì?",
+          "options": [
+            "Được công nhận là đại lý làm thủ tục hải quan",
+            "Có hợp đồng với một hãng tàu lớn",
+            "Là thành viên của một liên minh hãng tàu",
+            "Có giấy phép kinh doanh kho bãi"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 2.1. Nếu chưa được công nhận, forwarder chỉ hỗ trợ và khai bằng chữ ký số của khách."
+        },
+        {
+          "id": "c02-q04",
+          "text": "Khi forwarder phát hành House B/L và chịu trách nhiệm như một người chuyên chở với chủ hàng, forwarder đóng vai trò gì?",
+          "options": [
+            "NVOCC – người chuyên chở không có tàu",
+            "Co-loader",
+            "Shipper thực tế của lô hàng",
+            "Hãng tàu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 2.2."
+        },
+        {
+          "id": "c02-q05",
+          "text": "Trên Master B/L, forwarder thường đứng ở vị trí nào đối với hãng tàu?",
+          "options": [
+            "Shipper/consignee",
+            "Người chuyên chở",
+            "Ngân hàng phát hành L/C",
+            "Cơ quan hải quan"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 2.2: hiểu điều này để giải thích cho khách vì sao có hai vận đơn."
+        },
+        {
+          "id": "c02-q06",
+          "text": "Nguồn thu nào là lợi nhuận chính của forwarder và cũng cạnh tranh gay gắt nhất?",
+          "options": [
+            "Chênh lệch cước (O/F)",
+            "Phí địa phương (local charges)",
+            "Phí dịch vụ thủ tục hải quan",
+            "Profit share với agent"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 2.3."
+        },
+        {
+          "id": "c02-q07",
+          "text": "Với local charges (THC, phí chứng từ, seal, telex release…), sales cần lưu ý gì?",
+          "options": [
+            "Phải báo minh bạch vì khách rất hay so sánh mục này",
+            "Có thể báo sau khi khách đã chốt",
+            "Không cần báo vì hãng tàu thu trực tiếp",
+            "Nên gộp chung vào cước biển để khách khỏi hỏi"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 2.3."
+        },
+        {
+          "id": "c02-q08",
+          "text": "Hàng “free hand” là gì?",
+          "options": [
+            "Hàng mà chủ hàng Việt Nam được quyền chọn forwarder",
+            "Hàng do người mua/người bán nước ngoài chỉ định forwarder",
+            "Hàng không phải làm thủ tục hải quan",
+            "Hàng được miễn thuế nhập khẩu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 2.4: đây là hàng sales Sunway trực tiếp khai thác."
+        },
+        {
+          "id": "c02-q09",
+          "text": "Hàng free hand thường xuất hiện trong trường hợp nào?",
+          "options": [
+            "Khách Việt Nam xuất theo CIF/CFR/DAP hoặc nhập theo FOB/EXW",
+            "Khách Việt Nam xuất theo FOB hoặc nhập theo CIF",
+            "Khách Việt Nam xuất theo EXW",
+            "Khách Việt Nam nhập theo DDP"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 2.4."
+        },
+        {
+          "id": "c02-q10",
+          "text": "Muốn có hàng nominated (hàng chỉ định), forwarder cần gì?",
+          "options": [
+            "Mạng lưới agent tốt",
+            "Đội xe riêng",
+            "Kho bãi riêng",
+            "Giá cước thấp nhất thị trường"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 2.4."
+        },
+        {
+          "id": "c02-q11",
+          "text": "Câu hỏi quan trọng khi telesales để biết lô hàng có phải free hand không?",
+          "options": [
+            "“Lô hàng này bên anh/chị hay bên đối tác nước ngoài chỉ định forwarder?”",
+            "“Bên mình có nhu cầu vận chuyển không ạ?”",
+            "“Công ty mình thành lập năm nào ạ?”",
+            "“Bên mình có bao nhiêu nhân viên ạ?”"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 2.4. Nếu hàng do nước ngoài chỉ định, đổi chiến thuật: dịch vụ đầu Việt Nam hoặc tiếp cận qua agent."
+        },
+        {
+          "id": "c02-q12",
+          "text": "Sunway cạnh tranh và chiến thắng bằng điều gì?",
+          "options": [
+            "Tốc độ, sự linh hoạt, sự tận tâm của từng sales, giá cạnh tranh và sự chuyên sâu ở tuyến thế mạnh",
+            "Quy mô và tên tuổi",
+            "Đội tàu và kho bãi riêng",
+            "Giá rẻ nhất ở mọi tuyến"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 2.5."
+        },
+        {
+          "id": "c02-q13",
+          "text": "Mục tiêu chiến lược của Sunway là gì?",
+          "options": [
+            "Trở thành lựa chọn số một trong phân khúc forwarder vừa và nhỏ tư nhân",
+            "Trở thành forwarder lớn nhất Việt Nam theo sản lượng",
+            "Trở thành hãng tàu nội Á",
+            "Lọt top 10 forwarder thế giới"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 2.5."
+        }
+      ]
+    },
+    {
+      "id": "c03",
+      "code": "03",
+      "part": "Phần mở đầu · Bức tranh ngành",
+      "title": "Lập thân – lập nghiệp: tư duy sales Sunway",
+      "sort": 3,
+      "questions": [
+        {
+          "id": "c03-q01",
+          "text": "Theo bốn nấc thang lập nghiệp, “Đi làm + Có lương” bằng gì?",
+          "options": ["Công việc", "Kinh doanh", "Sự nghiệp", "Thành công"],
+          "correct_index": 0,
+          "explanation": "Mục 3.1."
+        },
+        {
+          "id": "c03-q02",
+          "text": "“Công việc + Làm chủ” bằng gì?",
+          "options": ["Kinh doanh", "Công việc", "Sự nghiệp", "Thành công"],
+          "correct_index": 0,
+          "explanation": "Mục 3.1: người kinh doanh luôn là người chịu trách nhiệm cuối cùng."
+        },
+        {
+          "id": "c03-q03",
+          "text": "“Kinh doanh + Lợi nhuận” bằng gì?",
+          "options": ["Sự nghiệp", "Thành công", "Công việc", "Kinh doanh"],
+          "correct_index": 0,
+          "explanation": "Mục 3.1."
+        },
+        {
+          "id": "c03-q04",
+          "text": "“Sự nghiệp + Trưởng thành” bằng gì?",
+          "options": ["Thành công", "Sự nghiệp", "Kinh doanh", "Công việc"],
+          "correct_index": 0,
+          "explanation": "Mục 3.1: dẫn dắt người khác, trở thành chuyên gia uy tín."
+        },
+        {
+          "id": "c03-q05",
+          "text": "Người sales ở nấc “Sự nghiệp” thường có biểu hiện gì?",
+          "options": [
+            "Có khách ổn định, volume tăng, được khách giới thiệu",
+            "Học quy trình, gọi đủ cuộc, báo cáo đủ",
+            "Có tập khách riêng, tự lập kế hoạch",
+            "Đào tạo sales mới, xây đội, đại diện thương hiệu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 3.1, bảng bốn nấc thang."
+        },
+        {
+          "id": "c03-q06",
+          "text": "Theo sách, chuyên gia giúp vấn đề của khách hàng trở nên thế nào?",
+          "options": [
+            "Đơn giản: khách cần biết tổng chi phí, thời gian, rủi ro và mình sẽ lo giúp họ những gì",
+            "Đầy đủ: liệt kê chi tiết 15 loại phụ phí",
+            "Chuyên sâu: dùng nhiều thuật ngữ để thể hiện trình độ",
+            "Nhanh: gửi ngay bảng giá dài không cần giải thích"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 3.2."
+        },
+        {
+          "id": "c03-q07",
+          "text": "Ba từ khóa nền tảng của người sales Sunway là gì?",
+          "options": [
+            "Thực hành – Khách hàng tiềm năng – Gặp gỡ và mối quan hệ",
+            "Giá rẻ – Tốc độ – Quy mô",
+            "Kiến thức – Bằng cấp – Kinh nghiệm",
+            "Telesales – Email – Zalo"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 3.3."
+        },
+        {
+          "id": "c03-q08",
+          "text": "Theo sách, kỹ năng nào là quan trọng nhất trong bán hàng?",
+          "options": [
+            "Kỹ năng tìm kiếm khách hàng tiềm năng",
+            "Kỹ năng chốt sales",
+            "Kỹ năng báo giá",
+            "Kỹ năng làm việc nhóm"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 3.3 và Chương 9."
+        },
+        {
+          "id": "c03-q09",
+          "text": "“Bộ ba giữ khách” gồm những gì?",
+          "options": [
+            "Xây dựng niềm tin – xử lý từ chối – đóng gói giá trị",
+            "Giá rẻ – quà tặng – chiết khấu",
+            "Gọi điện – gửi email – nhắn Zalo",
+            "Báo giá – booking – vận đơn"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 3.3."
+        }
+      ]
+    },
+    {
+      "id": "c04",
+      "code": "04",
+      "part": "Phần I · Kiến thức phải học",
+      "title": "Ngoại thương: Incoterms, thanh toán, quy trình",
+      "sort": 4,
+      "questions": [
+        {
+          "id": "c04-q01",
+          "text": "Incoterms quy định những gì?",
+          "options": [
+            "Ai trả chi phí gì, rủi ro chuyển giao ở đâu, ai làm thủ tục thông quan",
+            "Giá trị hàng hóa và phương thức thanh toán",
+            "Mã HS và thuế suất",
+            "Tuyến đường và hãng tàu được dùng"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.1."
+        },
+        {
+          "id": "c04-q02",
+          "text": "Với sales, Incoterm trả lời câu hỏi quan trọng nhất nào?",
+          "options": [
+            "Ai là người được quyền chọn forwarder cho chặng chính",
+            "Lô hàng đi tàu nào",
+            "Thuế nhập khẩu bao nhiêu",
+            "Hàng có cần C/O không"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.1."
+        },
+        {
+          "id": "c04-q03",
+          "text": "Với nhóm điều kiện nào thì người mua thường chọn forwarder chặng chính?",
+          "options": [
+            "Nhóm E và F (EXW, FCA, FAS, FOB)",
+            "Nhóm C và D",
+            "Chỉ nhóm D",
+            "Chỉ nhóm C"
+          ],
+          "correct_index": 0,
+          "explanation": "Hình 5: nhóm E, F người mua chọn forwarder; nhóm C, D người bán chọn."
+        },
+        {
+          "id": "c04-q04",
+          "text": "Theo điều kiện EXW, người bán lo đến đâu?",
+          "options": [
+            "Giao hàng tại xưởng người bán; không bốc hàng lên xe, không làm thủ tục xuất khẩu",
+            "Giao cho người chuyên chở do người mua chỉ định, đã thông quan xuất",
+            "Hàng đã xếp lên tàu tại cảng xếp",
+            "Giao tận nơi, đã nộp thuế nhập khẩu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.1, bảng Incoterms."
+        },
+        {
+          "id": "c04-q05",
+          "text": "CIF khác CFR ở điểm nào?",
+          "options": [
+            "CIF có thêm nghĩa vụ người bán mua bảo hiểm ở mức tối thiểu (ICC C)",
+            "CIF người bán mua bảo hiểm mức cao (ICC A)",
+            "CIF rủi ro chuyển khi hàng đến cảng đích",
+            "CIF người mua trả cước biển"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.1."
+        },
+        {
+          "id": "c04-q06",
+          "text": "Theo CIP, người bán phải mua bảo hiểm ở mức nào?",
+          "options": [
+            "Mức cao (ICC A)",
+            "Mức tối thiểu (ICC C)",
+            "Không bắt buộc mua bảo hiểm",
+            "Mức trung bình (ICC B)"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.1."
+        },
+        {
+          "id": "c04-q07",
+          "text": "Điều kiện nào người bán giao tận nơi và đã nộp thuế nhập khẩu?",
+          "options": ["DDP", "DAP", "DPU", "CPT"],
+          "correct_index": 0,
+          "explanation": "Mục 4.1."
+        },
+        {
+          "id": "c04-q08",
+          "text": "Điều kiện nào người bán giao và dỡ hàng tại nơi chỉ định?",
+          "options": ["DPU", "DAP", "DDP", "FCA"],
+          "correct_index": 0,
+          "explanation": "Mục 4.1: DAP giao tại nơi chỉ định nhưng chưa dỡ hàng, chưa thông quan nhập."
+        },
+        {
+          "id": "c04-q09",
+          "text": "Những điều kiện nào chỉ dùng cho vận tải đường biển và thủy nội địa?",
+          "options": [
+            "FAS, FOB, CFR, CIF",
+            "FCA, CPT, CIP, DAP",
+            "EXW, FCA, DPU, DDP",
+            "CPT, CIP, DAP, DDP"
+          ],
+          "correct_index": 0,
+          "explanation": "Lưu ý sau bảng Incoterms, Mục 4.1."
+        },
+        {
+          "id": "c04-q10",
+          "text": "Với hàng container, Incoterms 2020 khuyến nghị dùng điều kiện nào thay cho FOB/CFR/CIF?",
+          "options": [
+            "FCA, CPT, CIP",
+            "EXW, DAP, DDP",
+            "FAS, DPU, DDP",
+            "FOB, CFR, CIF vẫn là khuyến nghị"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.1: hàng container thường giao cho người chuyên chở tại bãi, trước khi lên tàu."
+        },
+        {
+          "id": "c04-q11",
+          "text": "Khách Việt Nam xuất theo FOB hoặc nhập theo CIF. Sales thường bán được gì?",
+          "options": [
+            "Chủ yếu dịch vụ đầu Việt Nam (thủ tục hải quan, trucking, local charges), hoặc tư vấn khách chuyển điều kiện giao hàng",
+            "Cước chặng chính với giá tốt",
+            "Không bán được dịch vụ gì",
+            "Chỉ bán được bảo hiểm hàng hóa"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.1, quy tắc vàng cho sales."
+        },
+        {
+          "id": "c04-q12",
+          "text": "Khách Việt Nam nhập khẩu theo EXW, FCA hoặc FOB. Điều này có nghĩa gì với sales?",
+          "options": [
+            "Khách được chọn forwarder, bán được cước và dịch vụ đầu nước ngoài qua agent",
+            "Hàng do người bán nước ngoài chỉ định forwarder",
+            "Chỉ bán được trucking nội địa",
+            "Khách không cần làm thủ tục hải quan nhập"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.1, quy tắc vàng."
+        },
+        {
+          "id": "c04-q13",
+          "text": "Phương thức thanh toán nào rủi ro thuộc về người mua?",
+          "options": [
+            "T/T trả trước",
+            "T/T trả sau",
+            "D/A",
+            "L/C với chứng từ chuẩn"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.2."
+        },
+        {
+          "id": "c04-q14",
+          "text": "Với phương thức D/A, ngân hàng giao chứng từ cho người mua khi nào?",
+          "options": [
+            "Khi người mua ký chấp nhận hối phiếu",
+            "Khi người mua thanh toán đủ tiền",
+            "Ngay khi tàu chạy",
+            "Khi người bán gửi telex release"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.2: D/A rủi ro cho người bán; D/P giao chứng từ khi người mua thanh toán."
+        },
+        {
+          "id": "c04-q15",
+          "text": "Với lô hàng thanh toán L/C, vận đơn phải phù hợp với L/C theo bộ quy tắc nào?",
+          "options": ["UCP 600", "Incoterms 2020", "SOLAS", "IMDG"],
+          "correct_index": 0,
+          "explanation": "Mục 4.2."
+        },
+        {
+          "id": "c04-q16",
+          "text": "Nếu có sai lệch nhỏ giữa vận đơn và L/C (tên hàng, cảng, ngày giao hàng…), hậu quả có thể là gì?",
+          "options": [
+            "Ngân hàng coi bộ chứng từ bất hợp lệ (discrepancy) và từ chối thanh toán",
+            "Hãng tàu từ chối xếp hàng",
+            "Hải quan phân luồng đỏ",
+            "Không ảnh hưởng gì nếu hàng đã lên tàu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.2: vì vậy phải xin bản L/C để kiểm tra trước khi phát hành vận đơn."
+        },
+        {
+          "id": "c04-q17",
+          "text": "Packing list giúp forwarder quyết định điều gì?",
+          "options": [
+            "Chọn loại container và tính cước LCL/Air dựa trên số kiện, trọng lượng, thể tích",
+            "Tính thuế nhập khẩu",
+            "Xác định xuất xứ hàng hóa",
+            "Chọn phương thức thanh toán"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.3."
+        },
+        {
+          "id": "c04-q18",
+          "text": "Chứng từ nào thể hiện giá trị hàng và là căn cứ tính thuế?",
+          "options": [
+            "Hóa đơn thương mại (Commercial Invoice)",
+            "Packing List",
+            "Booking Confirmation",
+            "Arrival Notice"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.3."
+        },
+        {
+          "id": "c04-q19",
+          "text": "C/O Form E dùng cho hiệp định nào?",
+          "options": [
+            "ACFTA (ASEAN – Trung Quốc)",
+            "ATIGA (nội khối ASEAN)",
+            "AKFTA (ASEAN – Hàn Quốc)",
+            "EVFTA (Việt Nam – EU)"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.3: Form D – ATIGA, Form AK – AKFTA, Form VK – VKFTA; EVFTA dùng EUR.1 hoặc tự chứng nhận xuất xứ."
+        },
+        {
+          "id": "c04-q20",
+          "text": "Trong quy trình xuất khẩu FCL, bước nào đến ngay sau “Hạ bãi, thông quan”?",
+          "options": [
+            "Gửi SI và VGM trước cut-off",
+            "Lấy vỏ, đóng hàng",
+            "Pre-alert cho agent đầu nhập",
+            "Booking confirm"
+          ],
+          "correct_index": 0,
+          "explanation": "Hình 7: Báo giá & chốt → Booking confirm → Lấy vỏ, đóng hàng → Hạ bãi, thông quan → SI & VGM → Tàu chạy → Pre-alert → Giao hàng đầu nhập."
+        },
+        {
+          "id": "c04-q21",
+          "text": "So với đường biển, quy trình hàng không có điểm khác nào?",
+          "options": [
+            "Có bước soi chiếu an ninh, vận đơn là AWB và thời gian tính bằng ngày",
+            "Không cần thông quan xuất khẩu",
+            "Không có bước booking",
+            "Dùng Master B/L và House B/L như đường biển"
+          ],
+          "correct_index": 0,
+          "explanation": "Hình 8."
+        }
+      ]
+    },
+    {
+      "id": "c05",
+      "code": "05",
+      "part": "Phần I · Kiến thức phải học",
+      "title": "Chứng từ logistics và thuật ngữ",
+      "sort": 5,
+      "questions": [
+        {
+          "id": "c05-q01",
+          "text": "Booking Confirmation dùng để làm gì?",
+          "options": [
+            "Xác nhận chỗ trên tàu, số booking, cut-off, nơi lấy vỏ",
+            "Khai báo trọng lượng container",
+            "Lệnh lấy hàng khỏi cảng",
+            "Báo hàng đến và các khoản phí"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.1."
+        },
+        {
+          "id": "c05-q02",
+          "text": "Shipping Instruction (SI) do ai gửi và dùng để làm gì?",
+          "options": [
+            "Chủ hàng gửi forwarder/hãng tàu, cung cấp thông tin để làm vận đơn",
+            "Hãng tàu gửi chủ hàng để xác nhận chỗ",
+            "Hải quan gửi để phân luồng",
+            "Forwarder đầu nhập gửi để báo hàng đến"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.1: shipper, consignee, notify, tên hàng, số cont/seal."
+        },
+        {
+          "id": "c05-q03",
+          "text": "VGM là gì?",
+          "options": [
+            "Khai báo tổng trọng lượng container đã xác minh, theo SOLAS",
+            "Phụ phí mất cân bằng container",
+            "Phí lưu container tại cảng",
+            "Bản kê hàng hóa trên tàu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.1."
+        },
+        {
+          "id": "c05-q04",
+          "text": "Master B/L (MBL) là vận đơn giữa những bên nào?",
+          "options": [
+            "Hãng tàu và forwarder",
+            "Forwarder và chủ hàng",
+            "Người bán và người mua",
+            "Ngân hàng và người mua"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.1."
+        },
+        {
+          "id": "c05-q05",
+          "text": "Surrendered / Telex release nghĩa là gì?",
+          "options": [
+            "Giao hàng tại cảng đích không cần xuất trình B/L gốc",
+            "Hủy vận đơn đã phát hành",
+            "Chuyển hàng sang chuyến tàu sau",
+            "Gửi vận đơn gốc qua ngân hàng"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.1."
+        },
+        {
+          "id": "c05-q06",
+          "text": "Sea Waybill có đặc điểm gì?",
+          "options": [
+            "Chứng từ không lưu thông, giao hàng cho consignee ghi trên chứng từ",
+            "Chứng từ lưu thông, chuyển nhượng được bằng ký hậu",
+            "Chỉ dùng cho hàng không",
+            "Do hải quan phát hành"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.1."
+        },
+        {
+          "id": "c05-q07",
+          "text": "Delivery Order (D/O) dùng để làm gì?",
+          "options": [
+            "Lệnh giao hàng, dùng để lấy hàng khỏi cảng",
+            "Xác nhận chỗ trên tàu",
+            "Khai báo hải quan",
+            "Báo giá cước"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.1: do hãng tàu/forwarder đầu nhập phát hành."
+        },
+        {
+          "id": "c05-q08",
+          "text": "Hàng LCL được tính cước như thế nào?",
+          "options": [
+            "Theo CBM hoặc tấn, lấy giá trị lớn hơn (thường quy đổi 1 tấn = 1 CBM)",
+            "Theo container nguyên",
+            "Chỉ theo trọng lượng thực",
+            "Theo giá trị hàng hóa"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.2."
+        },
+        {
+          "id": "c05-q09",
+          "text": "Container 40’HC thực tế đóng được khoảng bao nhiêu CBM?",
+          "options": ["65 – 68 CBM", "25 – 28 CBM", "55 – 58 CBM", "76 CBM"],
+          "correct_index": 0,
+          "explanation": "Mục 5.2: dung tích lòng 40’HC khoảng 76 CBM nhưng thực tế đóng 65–68 CBM; 20’DC 25–28; 40’DC 55–58."
+        },
+        {
+          "id": "c05-q10",
+          "text": "Hàng quá khổ, quá tải, máy móc thường dùng loại container nào?",
+          "options": [
+            "Open Top (OT), Flat Rack (FR)",
+            "Reefer (RF)",
+            "ISO tank, Flexitank",
+            "20’DC tiêu chuẩn"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.2. Reefer cho hàng lạnh; ISO tank, Flexitank cho hàng lỏng."
+        },
+        {
+          "id": "c05-q11",
+          "text": "Hàng DG (Dangerous Goods) cần gì?",
+          "options": [
+            "MSDS và hãng tàu duyệt, theo IMDG",
+            "Chỉ cần packing list",
+            "Container lạnh",
+            "Không cần thủ tục đặc biệt"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.2."
+        },
+        {
+          "id": "c05-q12",
+          "text": "Lô hàng air nặng 100 kg, kích thước 120 × 100 × 100 cm. Chargeable weight là bao nhiêu?",
+          "options": ["200 kg", "100 kg", "120 kg", "1.200 kg"],
+          "correct_index": 0,
+          "explanation": "Mục 5.2: trọng lượng thể tích = 120×100×100/6.000 = 200 kg, lớn hơn 100 kg nên tính 200 kg."
+        },
+        {
+          "id": "c05-q13",
+          "text": "Vì sao cần nói rõ khi dùng “T/T” với khách?",
+          "options": [
+            "Vì T/T vừa là transit time vừa là điện chuyển tiền",
+            "Vì T/T là thuật ngữ cấm dùng",
+            "Vì T/T chỉ dùng cho hàng air",
+            "Vì T/T là tên một hãng tàu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.3."
+        },
+        {
+          "id": "c05-q14",
+          "text": "Trễ cut-off dẫn đến hậu quả gì?",
+          "options": [
+            "Rớt tàu",
+            "Bị phạt DEM",
+            "Hải quan phân luồng đỏ",
+            "Bị hủy vận đơn"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.3: CY cut-off, SI cut-off, VGM cut-off."
+        },
+        {
+          "id": "c05-q15",
+          "text": "“Roll” (rớt hàng) nghĩa là gì?",
+          "options": [
+            "Hãng tàu dời container sang chuyến sau do hết chỗ hoặc trễ",
+            "Container bị hư hỏng",
+            "Hàng bị hải quan giữ lại",
+            "Tàu chuyển tải ở cảng trung gian"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.3."
+        },
+        {
+          "id": "c05-q16",
+          "text": "CY và CFS lần lượt là gì?",
+          "options": [
+            "Bãi container và kho hàng lẻ",
+            "Cảng xếp và cảng dỡ",
+            "Ngày tàu chạy và ngày tàu đến",
+            "Phí xếp dỡ và phí lưu bãi"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.3."
+        },
+        {
+          "id": "c05-q17",
+          "text": "DEM (Demurrage) là phí gì?",
+          "options": [
+            "Phí lưu container tại bãi cảng quá thời gian miễn phí",
+            "Phí lưu container ngoài cảng (tại kho khách) quá thời gian miễn phí",
+            "Phí lưu bãi của cảng",
+            "Phụ phí mùa cao điểm"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.4. DET (Detention) là phí lưu container ngoài cảng."
+        },
+        {
+          "id": "c05-q18",
+          "text": "Khách lấy container về kho để đóng hàng và giữ quá số ngày miễn phí. Khách sẽ chịu phí gì?",
+          "options": ["DET (Detention)", "DEM (Demurrage)", "THC", "CIC"],
+          "correct_index": 0,
+          "explanation": "Mục 5.4: DET là phí lưu container ngoài cảng, tại kho khách."
+        },
+        {
+          "id": "c05-q19",
+          "text": "CIC là phụ phí gì?",
+          "options": [
+            "Phụ phí mất cân bằng container",
+            "Phụ phí nhiên liệu",
+            "Phụ phí mùa cao điểm",
+            "Phí khai báo hải quan Mỹ"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.4."
+        },
+        {
+          "id": "c05-q20",
+          "text": "PSS là gì?",
+          "options": [
+            "Phụ phí mùa cao điểm",
+            "Mức tăng giá cước chung",
+            "Phụ phí lưu huỳnh thấp",
+            "Phí niêm chì"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.4."
+        },
+        {
+          "id": "c05-q21",
+          "text": "GRI là gì?",
+          "options": [
+            "Mức tăng giá cước chung do hãng tàu thông báo",
+            "Phụ phí mất cân bằng container",
+            "Phí phát hành vận đơn",
+            "Phí điện giao hàng"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.4."
+        },
+        {
+          "id": "c05-q22",
+          "text": "AMS / ENS / AFR là các khoản phí gì?",
+          "options": [
+            "Phí khai báo hàng hóa trước cho hải quan Mỹ / EU / Nhật",
+            "Phụ phí nhiên liệu",
+            "Phí lưu container",
+            "Phí xếp dỡ tại cảng"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.4."
+        },
+        {
+          "id": "c05-q23",
+          "text": "Khoản nào thường là phí phát sinh lớn nhất khi hàng bị kẹt, nên khách chuyên nghiệp rất quan tâm?",
+          "options": [
+            "DEM/DET và free time",
+            "Seal fee",
+            "Doc fee",
+            "Telex release fee"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 5.4: xin thêm free time từ hãng tàu là một cách “đóng gói giá trị” rất thuyết phục."
+        }
+      ]
+    },
+    {
+      "id": "c06",
+      "code": "06",
+      "part": "Phần I · Kiến thức phải học",
+      "title": "Các đối tượng liên quan: hãng tàu, cảng, hải quan, thuế",
+      "sort": 6,
+      "questions": [
+        {
+          "id": "c06-q01",
+          "text": "Nhà cung cấp quan trọng nhất của forwarder là ai?",
+          "options": ["Hãng tàu", "Cảng biển", "Nhà xe", "Hải quan"],
+          "correct_index": 0,
+          "explanation": "Mục 6.1: giá cước, space, vỏ container và free time đều đến từ hãng tàu."
+        },
+        {
+          "id": "c06-q02",
+          "text": "Gemini Cooperation gồm những hãng tàu nào?",
+          "options": [
+            "Maersk, Hapag-Lloyd",
+            "ONE, HMM, Yang Ming",
+            "CMA CGM, COSCO/OOCL, Evergreen",
+            "MSC, ZIM"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 6.1, cơ cấu từ tháng 2/2025."
+        },
+        {
+          "id": "c06-q03",
+          "text": "Premier Alliance gồm những hãng tàu nào?",
+          "options": [
+            "ONE, HMM, Yang Ming",
+            "Maersk, Hapag-Lloyd",
+            "CMA CGM, COSCO/OOCL, Evergreen",
+            "Wan Hai, SITC, KMTC"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 6.1: liên minh nhỏ nhất trong ba liên minh."
+        },
+        {
+          "id": "c06-q04",
+          "text": "Ocean Alliance gồm những hãng tàu nào?",
+          "options": [
+            "CMA CGM, COSCO/OOCL, Evergreen",
+            "Maersk, Hapag-Lloyd",
+            "ONE, HMM, Yang Ming",
+            "MSC, ZIM"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 6.1: lớn nhất theo năng lực chở, thỏa thuận kéo dài đến 2032."
+        },
+        {
+          "id": "c06-q05",
+          "text": "Hãng tàu nào lớn nhất thế giới theo năng lực chở và hoạt động độc lập?",
+          "options": ["MSC", "Maersk", "CMA CGM", "Evergreen"],
+          "correct_index": 0,
+          "explanation": "Mục 6.1."
+        },
+        {
+          "id": "c06-q06",
+          "text": "Khách đi hàng Hải Phòng – Busan, cần giá rẻ và nhiều chuyến mỗi tuần. Nên gợi ý nhóm hãng tàu nào?",
+          "options": [
+            "Hãng tàu nội Á như Wan Hai, SITC, KMTC, Sinokor, Heung-A",
+            "Chỉ các hãng thuộc Gemini Cooperation",
+            "Chỉ MSC",
+            "Hãng tàu đi thẳng Mỹ, châu Âu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 6.1: hãng nội Á giá tốt, tần suất cao cho tuyến Hàn, Nhật, Trung Quốc, Đông Nam Á."
+        },
+        {
+          "id": "c06-q07",
+          "text": "Cảng nước sâu nào ở miền Bắc đón tàu lớn đi thẳng Mỹ?",
+          "options": ["Lạch Huyện", "Đình Vũ", "Tân Vũ", "Tiên Sa"],
+          "correct_index": 0,
+          "explanation": "Mục 6.2."
+        },
+        {
+          "id": "c06-q08",
+          "text": "Cảng nào có sản lượng container lớn nhất cả nước, chủ yếu tuyến nội Á?",
+          "options": ["Cát Lái", "Cái Mép – Thị Vải", "Lạch Huyện", "Quy Nhơn"],
+          "correct_index": 0,
+          "explanation": "Mục 6.2."
+        },
+        {
+          "id": "c06-q09",
+          "text": "Cái Mép – Thị Vải có đặc điểm gì?",
+          "options": [
+            "Cảng nước sâu, tàu mẹ đi thẳng Mỹ, châu Âu",
+            "Cảng nhỏ, chủ yếu chuyển tải",
+            "Cảng cạn (ICD) gần khu công nghiệp",
+            "Chỉ phục vụ tuyến nội Á"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 6.2."
+        },
+        {
+          "id": "c06-q10",
+          "text": "Hệ thống khai hải quan điện tử của Việt Nam là gì?",
+          "options": ["VNACCS/VCIS", "ECUS-AMS", "SOLAS", "IMDG"],
+          "correct_index": 0,
+          "explanation": "Mục 6.3."
+        },
+        {
+          "id": "c06-q11",
+          "text": "Tờ khai được phân luồng đỏ nghĩa là gì?",
+          "options": [
+            "Kiểm tra thực tế hàng hóa",
+            "Thông quan ngay",
+            "Kiểm tra hồ sơ",
+            "Hủy tờ khai"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 6.3: luồng xanh thông quan ngay, luồng vàng kiểm tra hồ sơ, luồng đỏ kiểm tra thực tế hàng."
+        },
+        {
+          "id": "c06-q12",
+          "text": "Tờ khai luồng vàng nghĩa là gì?",
+          "options": [
+            "Kiểm tra hồ sơ",
+            "Kiểm tra thực tế hàng hóa",
+            "Thông quan ngay",
+            "Kiểm tra sau thông quan"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 6.3."
+        },
+        {
+          "id": "c06-q13",
+          "text": "Vì sao khai đúng ngay từ đầu quan trọng hơn thông quan nhanh?",
+          "options": [
+            "Vì ngoài thông quan còn có kiểm tra sau thông quan",
+            "Vì khai sai sẽ bị rớt tàu",
+            "Vì hãng tàu kiểm tra tờ khai",
+            "Vì khai đúng thì luôn được luồng xanh"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 6.3."
+        },
+        {
+          "id": "c06-q14",
+          "text": "Từ 01/3/2025, Tổng cục Hải quan được tổ chức lại thành gì?",
+          "options": [
+            "Cục Hải quan thuộc Bộ Tài chính, với 20 chi cục hải quan khu vực",
+            "Bộ Hải quan độc lập",
+            "Tổng cục Hải quan thuộc Bộ Công Thương",
+            "Cục Hải quan thuộc Bộ Giao thông vận tải"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 6.3."
+        },
+        {
+          "id": "c06-q15",
+          "text": "Trong mã HS 8 số của Việt Nam, phần nào thống nhất quốc tế?",
+          "options": ["6 số đầu", "2 số đầu", "4 số cuối", "Cả 8 số"],
+          "correct_index": 0,
+          "explanation": "Hình 9: 6 số đầu thống nhất quốc tế, 2 số cuối theo Biểu thuế Việt Nam."
+        },
+        {
+          "id": "c06-q16",
+          "text": "Thứ tự tính thuế ở khâu nhập khẩu là gì?",
+          "options": [
+            "Trị giá tính thuế → Thuế NK (+ phòng vệ TM) → Thuế TTĐB → Thuế BVMT → VAT",
+            "VAT → Thuế NK → Thuế TTĐB → Thuế BVMT",
+            "Thuế TTĐB → Thuế NK → VAT → Thuế BVMT",
+            "Thuế BVMT → VAT → Thuế NK → Thuế TTĐB"
+          ],
+          "correct_index": 0,
+          "explanation": "Hình 10: giá tính VAT = trị giá tính thuế + thuế NK + thuế TTĐB + thuế BVMT."
+        },
+        {
+          "id": "c06-q17",
+          "text": "Thuế phòng vệ thương mại gồm những loại nào?",
+          "options": [
+            "Chống bán phá giá, chống trợ cấp, tự vệ",
+            "VAT, thuế TTĐB, thuế BVMT",
+            "Thuế MFN và thuế FTA",
+            "Thuế xuất khẩu và thuế nhập khẩu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 6.4."
+        },
+        {
+          "id": "c06-q18",
+          "text": "Khách nhập hàng từ Hàn Quốc có C/O form AK hoặc VK. Ý nghĩa là gì?",
+          "options": [
+            "Khách được hưởng thuế nhập khẩu ưu đãi đặc biệt theo FTA (AKFTA/VKFTA)",
+            "Hàng được miễn kiểm tra chuyên ngành",
+            "Hàng được phân luồng xanh tự động",
+            "Hàng được miễn VAT"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 4.3 và 6.4."
+        },
+        {
+          "id": "c06-q19",
+          "text": "Hàng thuộc nhóm “đèn xanh” theo Luật Quản lý ngoại thương có cần lưu ý gì?",
+          "options": [
+            "Vẫn có thể phải kiểm tra chuyên ngành",
+            "Luôn được miễn mọi thủ tục",
+            "Không phải khai hải quan",
+            "Được miễn thuế nhập khẩu"
+          ],
+          "correct_index": 0,
+          "explanation": "Hình 12."
+        },
+        {
+          "id": "c06-q20",
+          "text": "Trước khi tư vấn cho một ngành hàng mới, sales phải làm gì?",
+          "options": [
+            "Kiểm tra lại quy định hiện hành cùng bộ phận chứng từ, không tư vấn theo trí nhớ",
+            "Tư vấn ngay theo kinh nghiệm cũ",
+            "Hỏi hãng tàu về giấy phép",
+            "Để khách tự tìm hiểu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 6.5: các bộ quản lý có thể thay đổi sau các đợt sắp xếp bộ máy."
+        }
+      ]
+    },
+    {
+      "id": "c07",
+      "code": "07",
+      "part": "Phần I · Kiến thức phải học",
+      "title": "Thị trường và phân khúc khách hàng",
+      "sort": 7,
+      "questions": [
+        {
+          "id": "c07-q01",
+          "text": "Thị trường mục tiêu hàng xuất của Sunway bắt đầu từ đâu?",
+          "options": ["Hàn Quốc", "Trung Quốc", "Mỹ", "EU"],
+          "correct_index": 0,
+          "explanation": "Mục 7.1: sau đó mở rộng sang Nhật Bản, Đông Nam Á, châu Á."
+        },
+        {
+          "id": "c07-q02",
+          "text": "Thị trường mục tiêu hàng nhập của Sunway bắt đầu từ đâu?",
+          "options": ["Trung Quốc", "Hàn Quốc", "Nhật Bản", "EU"],
+          "correct_index": 0,
+          "explanation": "Mục 7.1: sau đó mở rộng sang Đông Nam Á và EU."
+        },
+        {
+          "id": "c07-q03",
+          "text": "Vì sao hàng xuất khẩu đi Trung Quốc tạm thời không được Sunway ưu tiên?",
+          "options": [
+            "Giá cước rất thấp, biên lợi nhuận mỏng",
+            "Thủ tục hải quan quá phức tạp",
+            "Không có hãng tàu chạy tuyến này",
+            "Khách hàng Trung Quốc luôn chỉ định forwarder"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.2."
+        },
+        {
+          "id": "c07-q04",
+          "text": "“Lối đánh riêng” của mỗi sales là gì?",
+          "options": [
+            "Chọn một tổ hợp sản phẩm và một phân khúc thị trường để trở thành người hiểu sâu nhất",
+            "Bán mọi dịch vụ cho mọi khách",
+            "Chỉ tập trung giảm giá",
+            "Chỉ làm khách được công ty giao"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.1. Ví dụ: chuyên hàng nhập nguyên liệu nhựa từ Hàn Quốc về Hải Phòng, trọn gói cước + hải quan + xe."
+        },
+        {
+          "id": "c07-q05",
+          "text": "Năm 2025, tổng kim ngạch xuất nhập khẩu hàng hóa của Việt Nam đạt khoảng bao nhiêu?",
+          "options": [
+            "Khoảng 930 tỷ USD",
+            "Khoảng 530 tỷ USD",
+            "Khoảng 700 tỷ USD",
+            "Khoảng 1.300 tỷ USD"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.2."
+        },
+        {
+          "id": "c07-q06",
+          "text": "Năm 2025, thị trường xuất khẩu lớn nhất của Việt Nam là?",
+          "options": [
+            "Hoa Kỳ (khoảng 153 tỷ USD)",
+            "Trung Quốc",
+            "EU",
+            "Hàn Quốc"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.2."
+        },
+        {
+          "id": "c07-q07",
+          "text": "Năm 2025, thị trường nhập khẩu lớn nhất và đối tác thương mại lớn nhất của Việt Nam là?",
+          "options": [
+            "Trung Quốc (nhập khẩu khoảng 186 tỷ USD)",
+            "Hoa Kỳ",
+            "Hàn Quốc",
+            "Nhật Bản"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.2."
+        },
+        {
+          "id": "c07-q08",
+          "text": "Vì sao tuyến Hàn Quốc được chọn làm thị trường đầu tiên?",
+          "options": [
+            "Hàn Quốc là một trong những nhà đầu tư FDI lớn nhất vào Việt Nam và là nguồn nhập khẩu nguyên liệu lớn",
+            "Hàn Quốc có cước biển cao nhất",
+            "Hàn Quốc không có forwarder bản địa",
+            "Hàng đi Hàn không cần C/O"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.2."
+        },
+        {
+          "id": "c07-q09",
+          "text": "Tuyến nội Á (Hàn, Nhật, Trung Quốc, Đông Nam Á) có đặc điểm gì?",
+          "options": [
+            "Giá thấp hơn, nhiều hãng cạnh tranh, tần suất cao, đòi hỏi báo giá nhanh",
+            "Giá cao, biến động mạnh, chủ yếu do các liên minh lớn nắm",
+            "Ít hãng tàu, tần suất thấp",
+            "Chỉ đi được bằng đường hàng không"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.3."
+        },
+        {
+          "id": "c07-q10",
+          "text": "Hàng không phù hợp với loại hàng nào?",
+          "options": [
+            "Hàng gấp, giá trị cao, mẫu, linh kiện điện tử",
+            "Hàng nặng, cồng kềnh, không gấp",
+            "Hàng lỏng số lượng lớn",
+            "Hàng quá khổ, máy móc lớn"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.3 và Hình 13."
+        },
+        {
+          "id": "c07-q11",
+          "text": "Vì sao “cập nhật giá cước” luôn là lý do chính đáng để liên hệ lại khách, kể cả khách đã có đối tác?",
+          "options": [
+            "Vì thị trường cước biến động theo tuần",
+            "Vì khách bắt buộc phải nhận báo giá mới",
+            "Vì giá cước luôn giảm",
+            "Vì hãng tàu yêu cầu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.3."
+        },
+        {
+          "id": "c07-q12",
+          "text": "Phân khúc “Nhập khẩu bán thương mại” có đặc tính gì?",
+          "options": [
+            "Volume nhỏ, sales dễ, biên lợi nhuận cao, ít đổi forwarder, công nợ không tốt",
+            "Volume lớn, đều, lợi nhuận thấp nhưng ổn định",
+            "Chi phí tiếp cận lớn, khó kiểm soát",
+            "Volume lớn, lợi nhuận mỏng nhưng công nợ tốt"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.4."
+        },
+        {
+          "id": "c07-q13",
+          "text": "Phân khúc “Sản xuất xuất khẩu” có đặc tính gì?",
+          "options": [
+            "Volume lớn, đều; cần giá tốt; lợi nhuận mỏng nhưng công nợ tốt",
+            "Volume nhỏ, biên lợi nhuận cao, công nợ không tốt",
+            "Chi phí tiếp cận lớn, khó kiểm soát",
+            "Cần thủ tục ủy thác, sales dễ"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.4."
+        },
+        {
+          "id": "c07-q14",
+          "text": "Với khách thương mại, rủi ro lớn nhất là gì và phòng ngừa thế nào?",
+          "options": [
+            "Rủi ro công nợ; phối hợp với kế toán thống nhất hạn mức và thời hạn công nợ ngay từ đầu, không tự hứa với khách",
+            "Rủi ro hàng hư hỏng; mua bảo hiểm",
+            "Rủi ro rớt tàu; book sớm",
+            "Rủi ro mất khách; giảm giá liên tục"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.4, bài học về công nợ."
+        },
+        {
+          "id": "c07-q15",
+          "text": "Với khách “kim cương” là nhà máy xuất khẩu, tuyến trọng tâm là gì?",
+          "options": [
+            "Ấn Độ, Trung Đông",
+            "Trung Quốc, Mỹ, Nhật, Hàn, ASEAN",
+            "EU",
+            "Nam Mỹ"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.5: sản phẩm bán kèm là cước biển."
+        },
+        {
+          "id": "c07-q16",
+          "text": "Nhóm “Khách mới tham gia XNK” thường tìm ở đâu?",
+          "options": [
+            "Sản phẩm có tem phụ ở siêu thị, hội chợ; mạng xã hội theo nhóm ngành; người bán xây thương hiệu cá nhân",
+            "Website tuyển dụng nhân sự XNK, khu công nghiệp",
+            "Hội thảo, hội nghị, hội doanh nghiệp",
+            "Danh sách hãng tàu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.6."
+        },
+        {
+          "id": "c07-q17",
+          "text": "Vì sao với khách có nghề XNK, telesales là con đường bắt buộc?",
+          "options": [
+            "Họ luôn có đối tác sẵn, keyperson là trưởng phòng XNK, phải tìm và theo đuổi qua điện thoại",
+            "Họ không dùng email",
+            "Họ chỉ làm việc với chủ doanh nghiệp",
+            "Họ chỉ gặp qua giới thiệu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 7.6."
+        }
+      ]
+    },
+    {
+      "id": "c08",
+      "code": "08",
+      "part": "Phần I · Kiến thức phải học",
+      "title": "Báo giá và pricing",
+      "sort": 8,
+      "questions": [
+        {
+          "id": "c08-q01",
+          "text": "Nguyên tắc đầu tiên trước khi báo giá là gì?",
+          "options": [
+            "Không báo giá khi chưa đủ thông tin",
+            "Báo giá thấp nhất có thể",
+            "Báo giá ngay để giữ khách, thông tin bổ sung sau",
+            "Chỉ báo giá khi khách đã đồng ý gặp"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 8.1."
+        },
+        {
+          "id": "c08-q02",
+          "text": "Thông tin nào nằm trong checklist tối thiểu trước khi báo giá?",
+          "options": [
+            "Incoterm và bên nào trả cước",
+            "Doanh thu năm của khách",
+            "Số nhân viên của khách",
+            "Năm thành lập công ty khách"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 8.1: POL/POD, Incoterm, tên hàng/mã HS, loại và số lượng container, ETD, dịch vụ đi kèm, yêu cầu đặc biệt."
+        },
+        {
+          "id": "c08-q03",
+          "text": "Ba khối chi phí chính của một lô hàng là gì?",
+          "options": [
+            "Local charges hai đầu; cước chính và phụ phí tuyến; dịch vụ nội địa",
+            "Cước biển; thuế; bảo hiểm",
+            "THC; DEM; DET",
+            "Phí chứng từ; phí seal; phí telex"
+          ],
+          "correct_index": 0,
+          "explanation": "Hình 14."
+        },
+        {
+          "id": "c08-q04",
+          "text": "Ví dụ nào là phụ phí theo tuyến?",
+          "options": [
+            "BAF/EBS/LSS, PSS, CIC, AMS/ENS/AFR",
+            "THC, phí chứng từ, seal",
+            "Thủ tục hải quan, trucking, nâng hạ",
+            "D/O, cleaning, handling"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 8.2."
+        },
+        {
+          "id": "c08-q05",
+          "text": "Quy trình pricing 6 bước theo đúng thứ tự là gì?",
+          "options": [
+            "Nhận yêu cầu → Xin giá → So sánh → Cộng lợi nhuận → Gửi báo giá → Follow-up",
+            "Xin giá → Nhận yêu cầu → Gửi báo giá → So sánh → Cộng lợi nhuận → Follow-up",
+            "Nhận yêu cầu → Gửi báo giá → Xin giá → Follow-up → So sánh → Cộng lợi nhuận",
+            "Cộng lợi nhuận → Xin giá → So sánh → Nhận yêu cầu → Gửi báo giá → Follow-up"
+          ],
+          "correct_index": 0,
+          "explanation": "Hình 15, kèm vòng lặp cập nhật báo giá khi thị trường thay đổi."
+        },
+        {
+          "id": "c08-q06",
+          "text": "Nguyên tắc pricing của Sunway là gì?",
+          "options": [
+            "Pricing tập trung, bám sát, theo đuổi đến cùng",
+            "Pricing nhanh, rẻ, nhiều",
+            "Pricing theo giá đối thủ",
+            "Chỉ báo giá khi khách hỏi"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 8.3: một báo giá gửi đi mà không follow-up là báo giá bỏ đi."
+        },
+        {
+          "id": "c08-q07",
+          "text": "Với tuyến nội Á, nên phản hồi báo giá trong bao lâu?",
+          "options": [
+            "Trong ngày, lý tưởng trong 2–4 giờ làm việc",
+            "Trong 1 tuần",
+            "Trong 48 giờ",
+            "Khi nào có giá tốt nhất"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 8.4. Nếu chưa có giá, báo khách thời điểm sẽ có giá."
+        },
+        {
+          "id": "c08-q08",
+          "text": "Nên đưa bao nhiêu lựa chọn trong một báo giá?",
+          "options": [
+            "2–3 option (rẻ nhất / nhanh nhất / ổn định nhất)",
+            "Chỉ một con số duy nhất",
+            "Càng nhiều càng tốt, tối thiểu 6",
+            "Không cần lựa chọn, để khách tự hỏi"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 8.4."
+        },
+        {
+          "id": "c08-q09",
+          "text": "Về hiệu lực giá, báo giá luôn phải ghi gì?",
+          "options": [
+            "“Valid till” và “subject to space & equipment availability”",
+            "Chỉ ghi ngày gửi báo giá",
+            "“Giá cố định trong năm”",
+            "Không cần ghi"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 8.4."
+        },
+        {
+          "id": "c08-q10",
+          "text": "Vì sao phải ghi “subject to space & equipment availability”?",
+          "options": [
+            "Vì giá chỉ áp dụng khi hãng tàu còn chỗ và còn vỏ container; tránh cam kết điều mình không kiểm soát",
+            "Vì đây là yêu cầu của hải quan",
+            "Vì giá đã gồm thuế",
+            "Vì khách yêu cầu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 8.4."
+        },
+        {
+          "id": "c08-q11",
+          "text": "Khi thị trường đang tăng, sales nên làm gì?",
+          "options": [
+            "Không báo giá “ăn chắc”; cảnh báo khách về GRI, PSS sắp áp dụng",
+            "Giữ nguyên giá cũ để giữ khách",
+            "Ngừng báo giá đến khi giá ổn định",
+            "Báo giá cao gấp đôi để an toàn"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 8.4."
+        },
+        {
+          "id": "c08-q12",
+          "text": "Theo sách, khách hàng ghét nhất điều gì trong báo giá?",
+          "options": [
+            "Phí phát sinh không được báo trước",
+            "Báo giá có nhiều lựa chọn",
+            "Báo giá có ghi lịch tàu",
+            "Báo giá có hiệu lực ngắn"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 8.4, nguyên tắc minh bạch."
+        },
+        {
+          "id": "c08-q13",
+          "text": "“Đóng gói giá trị” trong báo giá nghĩa là gì?",
+          "options": [
+            "Thay vì chỉ nói giá, nói khách được gì: tiết kiệm bao nhiêu %, giải pháp hợp ưu tiên, xin space, vỏ, free time",
+            "Đóng gói hàng hóa cẩn thận",
+            "Gộp tất cả phí thành một con số",
+            "Giảm giá thêm cho khách"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 8.5."
+        },
+        {
+          "id": "c08-q14",
+          "text": "Ví dụ nào thể hiện chuyên môn khi báo giá?",
+          "options": [
+            "“Nếu anh gom 2 lô 20’ thành 1 cont 40’HC thì tiết kiệm được khoảng X% cước.”",
+            "“Giá bên em rẻ nhất thị trường.”",
+            "“Anh cứ đi đi rồi tính.”",
+            "“Bên em có 15 loại phụ phí.”"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 8.5."
+        }
+      ]
+    },
+    {
+      "id": "c09",
+      "code": "09",
+      "part": "Phần II · Kỹ năng phải rèn",
+      "title": "Sales pipeline và tìm kiếm khách hàng",
+      "sort": 9,
+      "questions": [
+        {
+          "id": "c09-q01",
+          "text": "Chỉ tiêu tối thiểu ở giai đoạn 1 (Telesales, tìm keyperson) là gì?",
+          "options": [
+            "20 cuộc gọi/ngày; 2 cuộc gặp/tuần",
+            "10 cuộc gọi/ngày; 1 cuộc gặp/tuần",
+            "50 cuộc gọi/ngày; 5 cuộc gặp/tuần",
+            "20 cuộc gọi/tuần; 2 cuộc gặp/tháng"
+          ],
+          "correct_index": 0,
+          "explanation": "Tổng quan Phần II, bảng giai đoạn pipeline."
+        },
+        {
+          "id": "c09-q02",
+          "text": "Ở bước tìm keyperson, mục tiêu là xin được những gì?",
+          "options": [
+            "Tên, số điện thoại, email và thông tin tuyến hàng",
+            "Hợp đồng dịch vụ",
+            "Lô hàng đầu tiên",
+            "Báo cáo tài chính của khách"
+          ],
+          "correct_index": 0,
+          "explanation": "Tổng quan Phần II."
+        },
+        {
+          "id": "c09-q03",
+          "text": "“Thỏa mãn” trong pipeline chỉ đạt được khi nào?",
+          "options": [
+            "Khi khách vừa tin bạn vừa thấy giá hợp lý",
+            "Khi giá rẻ nhất thị trường",
+            "Khi khách nhận báo giá",
+            "Khi đã gặp khách 3 lần"
+          ],
+          "correct_index": 0,
+          "explanation": "Tổng quan Phần II."
+        },
+        {
+          "id": "c09-q04",
+          "text": "Chỉ tiêu của giai đoạn 4 (Chuyển hóa) là gì?",
+          "options": [
+            "Lô hàng đầu tiên",
+            "Báo giá cập nhật hằng tuần",
+            "Hồ sơ khách đầy đủ",
+            "Có khách được giới thiệu"
+          ],
+          "correct_index": 0,
+          "explanation": "Tổng quan Phần II."
+        },
+        {
+          "id": "c09-q05",
+          "text": "Ở giai đoạn handle và chăm sóc khách, khi có sự cố thì làm gì?",
+          "options": [
+            "Ưu tiên giải quyết trước, phân định lỗi và chi phí sau",
+            "Phân định lỗi trước rồi mới xử lý",
+            "Chuyển cho bộ phận khác tự xử lý",
+            "Chờ khách liên hệ"
+          ],
+          "correct_index": 0,
+          "explanation": "Tổng quan Phần II, giai đoạn 5."
+        },
+        {
+          "id": "c09-q06",
+          "text": "Ở đáy phễu sales pipeline điều gì xảy ra?",
+          "options": [
+            "Khách trung thành giới thiệu khách mới quay lại miệng phễu",
+            "Khách rời đi",
+            "Data mới được mua thêm",
+            "Sales chuyển sang khách khác"
+          ],
+          "correct_index": 0,
+          "explanation": "Hình 16."
+        },
+        {
+          "id": "c09-q07",
+          "text": "Theo sách, data tốt thì 20 cuộc gọi ra khoảng bao nhiêu cơ hội?",
+          "options": [
+            "2–3 cơ hội",
+            "10 cơ hội",
+            "Không có cơ hội nào",
+            "20 cơ hội"
+          ],
+          "correct_index": 0,
+          "explanation": "Mở đầu Chương 9: data tệ thì 100 cuộc gọi cũng không ra gì."
+        },
+        {
+          "id": "c09-q08",
+          "text": "Một công ty đang tuyển nhân viên XNK trên website tuyển dụng cho biết điều gì?",
+          "options": [
+            "Công ty đó đang có hàng xuất nhập khẩu",
+            "Công ty đó sắp giải thể",
+            "Công ty đó đã có forwarder",
+            "Công ty đó không có nhu cầu logistics"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 9.1."
+        },
+        {
+          "id": "c09-q09",
+          "text": "Ghi tên nhà nhập khẩu trên tem phụ ở siêu thị phù hợp để tìm nhóm khách nào?",
+          "options": [
+            "Khách mới tham gia XNK, nhập thương mại",
+            "Khách nhà máy xuất khẩu",
+            "Agent nước ngoài",
+            "Khách networking"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 9.1."
+        },
+        {
+          "id": "c09-q10",
+          "text": "Khi dùng data, sales phải tuân thủ quy định nào?",
+          "options": [
+            "Chỉ dùng dữ liệu nguồn gốc hợp pháp, tuân thủ Luật Bảo vệ dữ liệu cá nhân (Luật số 91/2025/QH15, hiệu lực từ 01/01/2026)",
+            "Mua bất kỳ danh sách nào có số điện thoại",
+            "Trao đổi danh sách khách với công ty khác",
+            "Không có quy định nào"
+          ],
+          "correct_index": 0,
+          "explanation": "Lưu ý Mục 9.1."
+        },
+        {
+          "id": "c09-q11",
+          "text": "Câu hỏi nào nằm trong 4 câu hỏi chấm điểm data trước khi gọi?",
+          "options": [
+            "Ai được quyền chọn forwarder (Incoterm)?",
+            "Giám đốc công ty bao nhiêu tuổi?",
+            "Văn phòng công ty ở tầng mấy?",
+            "Công ty có website đẹp không?"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 9.2: có XNK không, tuyến nào; có thuộc phân khúc/tuyến mục tiêu không; quy mô volume; ai được chọn forwarder."
+        },
+        {
+          "id": "c09-q12",
+          "text": "Xếp data thành nhóm A/B/C nghĩa là gì?",
+          "options": [
+            "A gọi ngay, B gọi trong tuần, C để sau; không phí thời gian cho nhóm C khi nhóm A chưa gọi hết",
+            "A là khách lớn, B vừa, C nhỏ, gọi theo thứ tự ngẫu nhiên",
+            "A đã ký hợp đồng, B đang báo giá, C chưa liên hệ",
+            "A ở miền Bắc, B miền Trung, C miền Nam"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 9.2."
+        },
+        {
+          "id": "c09-q13",
+          "text": "Với khách nhóm A, trước cuộc gọi đầu tiên cần biết ít nhất những gì?",
+          "options": [
+            "Sản phẩm chính, thị trường mua/bán, quy mô nhà máy hoặc số nhân viên, khu vực cảng khách hay dùng",
+            "Giá cước khách đang đi",
+            "Tên forwarder hiện tại và hạn mức công nợ",
+            "Không cần biết gì, cứ gọi"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 9.3."
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "code": "10",
+      "part": "Phần II · Kỹ năng phải rèn",
+      "title": "Lập kế hoạch, thực thi và báo cáo",
+      "sort": 10,
+      "questions": [
+        {
+          "id": "c10-q01",
+          "text": "Mức tối thiểu số cuộc gọi cho sales mới là bao nhiêu?",
+          "options": [
+            "20 cuộc/ngày",
+            "10 cuộc/ngày",
+            "20 cuộc/tuần",
+            "50 cuộc/ngày"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 10.1, sáu chỉ số."
+        },
+        {
+          "id": "c10-q02",
+          "text": "Mức tối thiểu số cuộc gặp cho sales mới là bao nhiêu?",
+          "options": [
+            "2 cuộc/tuần",
+            "1 cuộc/tháng",
+            "5 cuộc/tuần",
+            "2 cuộc/ngày"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 10.1."
+        },
+        {
+          "id": "c10-q03",
+          "text": "Chỉ số “Số khách hàng mới (có lô hàng đầu tiên)” được đo theo chu kỳ nào?",
+          "options": ["Tháng", "Ngày", "Tuần", "Quý"],
+          "correct_index": 0,
+          "explanation": "Mục 10.1."
+        },
+        {
+          "id": "c10-q04",
+          "text": "Nếu mỗi chỉ số tăng 10% mỗi tháng, sau 6 tháng tăng khoảng bao nhiêu?",
+          "options": ["Khoảng 77% (1,1⁶ ≈ 1,77)", "60%", "100%", "10%"],
+          "correct_index": 0,
+          "explanation": "Mục 10.2."
+        },
+        {
+          "id": "c10-q05",
+          "text": "Một sales bắt đầu với 20 cuộc gọi/ngày, tăng đều 10%/tháng. Sau 6 tháng đạt khoảng bao nhiêu?",
+          "options": [
+            "Khoảng 35 cuộc/ngày",
+            "Khoảng 26 cuộc/ngày",
+            "Khoảng 40 cuộc/ngày",
+            "Khoảng 80 cuộc/ngày"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 10.2: 20 × 1,77 ≈ 35."
+        },
+        {
+          "id": "c10-q06",
+          "text": "Khung giờ vàng gọi điện cho khách XNK là khi nào?",
+          "options": [
+            "Buổi sáng, khách thường dễ nghe máy từ 9h–11h",
+            "Giờ nghỉ trưa",
+            "Sau 17h",
+            "Tối thứ Bảy"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 10.3."
+        },
+        {
+          "id": "c10-q07",
+          "text": "Chiều thứ Sáu, sales nên làm gì?",
+          "options": [
+            "Tự đánh giá 6 chỉ số, lập kế hoạch tuần sau, báo cáo quản lý",
+            "Gọi điện cho khách mới",
+            "Gửi báo giá hàng loạt",
+            "Nghỉ sớm"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 10.3."
+        },
+        {
+          "id": "c10-q08",
+          "text": "Gọi nhiều mà ít hẹn gặp được thì nên xem lại điều gì?",
+          "options": [
+            "Kịch bản telesales và chất lượng data",
+            "Giá cước",
+            "Quy trình chứng từ",
+            "Chính sách công nợ"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 10.4."
+        },
+        {
+          "id": "c10-q09",
+          "text": "Gặp nhiều mà ít báo giá thì vấn đề nằm ở đâu?",
+          "options": [
+            "Cuộc gặp chưa khai thác được nhu cầu",
+            "Data kém chất lượng",
+            "Giá chưa cạnh tranh",
+            "Thiếu cuộc gọi"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 10.4."
+        },
+        {
+          "id": "c10-q10",
+          "text": "Báo giá nhiều mà ít khách mới thì nguyên nhân có thể là gì?",
+          "options": [
+            "Giá chưa cạnh tranh, hoặc chưa đủ niềm tin, hoặc follow-up chưa bám sát",
+            "Gọi điện quá ít",
+            "Data quá nhiều",
+            "Gặp khách quá nhiều"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 10.4."
+        },
+        {
+          "id": "c10-q11",
+          "text": "Ngoài số liệu, mỗi tuần sales nên viết 3 dòng nào?",
+          "options": [
+            "Điều làm tốt, điều cần cải thiện, một khách hàng dự phòng (backup) cho mỗi khách đang theo đuổi",
+            "Doanh thu, chi phí, lợi nhuận",
+            "Tên khách, số điện thoại, email",
+            "Số cuộc gọi, số cuộc gặp, số báo giá"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 10.4: để không phụ thuộc vào một cơ hội duy nhất."
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "code": "11",
+      "part": "Phần II · Kỹ năng phải rèn",
+      "title": "Giao tiếp và tạo mối quan hệ",
+      "sort": 11,
+      "questions": [
+        {
+          "id": "c11-q01",
+          "text": "Khi giá các bên như nhau, ba yếu tố nào quyết định khách chọn ai?",
+          "options": [
+            "Tốc độ – Thái độ – Uy tín",
+            "Giá – Khuyến mãi – Quà tặng",
+            "Quy mô – Tên tuổi – Văn phòng",
+            "Bằng cấp – Kinh nghiệm – Tuổi nghề"
+          ],
+          "correct_index": 0,
+          "explanation": "Hình 18, Mục 11.1."
+        },
+        {
+          "id": "c11-q02",
+          "text": "Biểu hiện của yếu tố “Tốc độ” là gì?",
+          "options": [
+            "Phản hồi nhanh; báo giá có nhiều lựa chọn; đưa cho khách nhiều option",
+            "Nói nhanh khi gọi điện",
+            "Chốt sales trong một cuộc gọi",
+            "Giao hàng nhanh hơn đối thủ"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 11.1."
+        },
+        {
+          "id": "c11-q03",
+          "text": "Câu nào thể hiện yếu tố “Uy tín” trước – trong – sau bán hàng?",
+          "options": [
+            "Làm đúng như nói, nói đúng như làm",
+            "Hứa trước, tính sau",
+            "Nói nước đôi để linh hoạt",
+            "Giảm giá để giữ khách"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 11.1."
+        },
+        {
+          "id": "c11-q04",
+          "text": "Nguyên tắc giao tiếp số 1 là gì?",
+          "options": [
+            "Hỏi nhiều hơn nói",
+            "Nói nhiều để khách hiểu",
+            "Giới thiệu công ty trước tiên",
+            "Gửi bảng giá ngay"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 11.2: khách tin người hiểu mình, không tin người nói hay."
+        },
+        {
+          "id": "c11-q05",
+          "text": "Câu trả lời nào tốt hơn khi khách hỏi về chỗ trên tàu?",
+          "options": [
+            "“Em sẽ kiểm tra với hãng tàu và báo anh trước 3h chiều.”",
+            "“Chắc chắn có chỗ anh ạ.”",
+            "“Chắc không còn đâu anh.”",
+            "“Anh cứ đặt đi rồi tính.”"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 11.2: không hứa điều mình không kiểm soát."
+        },
+        {
+          "id": "c11-q06",
+          "text": "Khi có tin xấu (tàu trễ, rớt hàng, phát sinh phí), sales nên làm gì?",
+          "options": [
+            "Báo khách sớm, trước khi khách nghe từ người khác, kèm phương án xử lý",
+            "Chờ đến khi xử lý xong mới báo",
+            "Không báo để khách khỏi lo",
+            "Để bộ phận chứng từ báo"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 11.2."
+        },
+        {
+          "id": "c11-q07",
+          "text": "Trong thang đo mối quan hệ, khách giao phần lớn volume cho bạn thuộc cấp độ nào?",
+          "options": [
+            "Nhà cung cấp chính",
+            "Nhà cung cấp thử",
+            "Người quen",
+            "Đối tác tin cậy"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 11.3."
+        },
+        {
+          "id": "c11-q08",
+          "text": "Khi khách cho lô hàng đầu tiên (nhà cung cấp thử), việc cần làm để lên cấp là gì?",
+          "options": [
+            "Làm lô đầu tiên hoàn hảo, báo cáo từng bước",
+            "Tăng giá cho lô sau",
+            "Gửi thêm thông tin giá trị, xin gặp",
+            "Duy trì hiện diện"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 11.3."
+        },
+        {
+          "id": "c11-q09",
+          "text": "Dấu hiệu của cấp độ “Đối tác tin cậy” là gì?",
+          "options": [
+            "Khách hỏi ý kiến bạn trước khi quyết định và giới thiệu bạn cho người khác",
+            "Khách nhận báo giá, thỉnh thoảng trả lời",
+            "Khách cho lô hàng đầu tiên",
+            "Khách chưa biết bạn"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 11.3."
+        },
+        {
+          "id": "c11-q10",
+          "text": "Mục tiêu cuối cùng của kỹ năng giao tiếp và tạo mối quan hệ là gì?",
+          "options": [
+            "Trở thành một chuyên gia uy tín trong nghề",
+            "Có nhiều khách nhất công ty",
+            "Báo giá rẻ nhất",
+            "Gọi được nhiều cuộc nhất"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 11.1."
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "code": "12",
+      "part": "Phần II · Kỹ năng phải rèn",
+      "title": "Làm việc nhóm",
+      "sort": 12,
+      "questions": [
+        {
+          "id": "c12-q01",
+          "text": "Bộ phận nào xin giá hãng tàu, co-loader, agent và tư vấn phương án?",
+          "options": [
+            "Pricing",
+            "Customer Service / Chứng từ",
+            "Operations / Hải quan",
+            "Kế toán"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 12.1."
+        },
+        {
+          "id": "c12-q02",
+          "text": "Bộ phận nào phụ trách booking, SI, vận đơn, pre-alert, theo dõi lịch tàu?",
+          "options": [
+            "Customer Service / Chứng từ",
+            "Pricing",
+            "Kế toán",
+            "Operations / Hải quan"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 12.1."
+        },
+        {
+          "id": "c12-q03",
+          "text": "Bộ phận nào khai hải quan, xin giấy phép, giao nhận tại cảng, điều xe?",
+          "options": [
+            "Operations / Hải quan",
+            "Pricing",
+            "Customer Service / Chứng từ",
+            "Kế toán"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 12.1."
+        },
+        {
+          "id": "c12-q04",
+          "text": "Sales cần cung cấp gì cho bộ phận Kế toán?",
+          "options": [
+            "Giá đã chốt, điều kiện thanh toán, hạn mức công nợ đã được duyệt",
+            "Lịch đóng hàng",
+            "Số cont, số seal",
+            "Điều kiện L/C"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 12.1."
+        },
+        {
+          "id": "c12-q05",
+          "text": "Mọi thỏa thuận với khách về giá, free time, công nợ phải được bàn giao thế nào?",
+          "options": [
+            "Bằng văn bản qua email hoặc hệ thống, không chỉ nói miệng",
+            "Nói miệng trong cuộc họp",
+            "Nhắn riêng cho một người",
+            "Không cần bàn giao"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 12.2."
+        },
+        {
+          "id": "c12-q06",
+          "text": "Nguyên tắc “Một đầu mối với khách” nghĩa là gì?",
+          "options": [
+            "Khách cần biết ai chịu trách nhiệm chính; các bộ phận hỗ trợ phía sau nhưng thông tin phải thống nhất",
+            "Chỉ một bộ phận được làm việc với khách",
+            "Khách chỉ được gọi một số điện thoại",
+            "Mỗi lô hàng đổi một người phụ trách"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 12.2."
+        },
+        {
+          "id": "c12-q07",
+          "text": "Sales không được tự hứa với khách điều gì khi chưa kiểm tra với bộ phận liên quan?",
+          "options": [
+            "Thời gian thông quan, hạn mức công nợ",
+            "Lịch gặp tiếp theo",
+            "Gửi báo giá cập nhật",
+            "Gọi điện cảm ơn"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 12.2: không hứa thay đồng đội."
+        },
+        {
+          "id": "c12-q08",
+          "text": "Khi có sự cố, nguyên tắc phối hợp nội bộ là gì?",
+          "options": [
+            "Xử lý trước, rút kinh nghiệm sau; không đổ lỗi trước mặt khách",
+            "Tìm người có lỗi trước",
+            "Để khách tự liên hệ bộ phận gây lỗi",
+            "Họp nội bộ ngay trước khi xử lý"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 12.2."
+        },
+        {
+          "id": "c12-q09",
+          "text": "Vì sao nên ghi nhận đồng đội trước mặt khách (ví dụ “Bạn Lan bên chứng từ đã theo sát lô này giúp anh”)?",
+          "options": [
+            "Khách thấy cả một đội đứng sau bạn, niềm tin tăng lên",
+            "Để đẩy trách nhiệm cho đồng đội",
+            "Để khách liên hệ trực tiếp đồng đội",
+            "Để được thưởng"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 12.2."
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "code": "13",
+      "part": "Phần II · Kỹ năng phải rèn",
+      "title": "Kỹ năng telesales",
+      "sort": 13,
+      "questions": [
+        {
+          "id": "c13-q01",
+          "text": "Mục tiêu của cuộc gọi đầu tiên là gì?",
+          "options": [
+            "Không phải để bán; trả lời được: có XNK không, ai là keyperson, có xin được email/Zalo hoặc cuộc hẹn không",
+            "Chốt lô hàng đầu tiên",
+            "Gửi báo giá ngay trong cuộc gọi",
+            "Giới thiệu đầy đủ về công ty"
+          ],
+          "correct_index": 0,
+          "explanation": "Mở đầu Chương 13."
+        },
+        {
+          "id": "c13-q02",
+          "text": "Vì sao nên đứng dậy, mỉm cười khi gọi điện?",
+          "options": [
+            "Khách không nhìn thấy bạn, chỉ nghe năng lượng trong giọng nói",
+            "Để gọi được nhiều cuộc hơn",
+            "Để ghi chép dễ hơn",
+            "Vì quy định công ty"
+          ],
+          "correct_index": 0,
+          "explanation": "Mở đầu Chương 13."
+        },
+        {
+          "id": "c13-q03",
+          "text": "Phần chào và giới thiệu trong cuộc gọi nên kéo dài khoảng bao lâu?",
+          "options": ["10 giây", "1 phút", "3 phút", "Không cần giới thiệu"],
+          "correct_index": 0,
+          "explanation": "Mục 13.1."
+        },
+        {
+          "id": "c13-q04",
+          "text": "Bước cuối cùng của một cuộc gọi là gì?",
+          "options": [
+            "Cảm ơn và ghi chép ngay vào CRM",
+            "Gửi báo giá",
+            "Hẹn gọi lại sau 1 tháng",
+            "Chuyển cho quản lý"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 13.1."
+        },
+        {
+          "id": "c13-q05",
+          "text": "Lễ tân nói “Bên chị không nhận chào hàng”. Sales nên phản hồi thế nào?",
+          "options": [
+            "Xin tên anh/chị phụ trách XNK để gửi email thông tin, không làm phiền điện thoại",
+            "Cúp máy và gọi công ty khác",
+            "Giới thiệu dài hơn về công ty",
+            "Đề nghị giảm giá"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 13.2, kịch bản gặp lễ tân."
+        },
+        {
+          "id": "c13-q06",
+          "text": "Câu “Thứ Năm hoặc thứ Sáu tiện cho anh hơn ạ?” dùng kỹ thuật gì?",
+          "options": [
+            "Câu hỏi lựa chọn thay vì câu hỏi có/không",
+            "Câu hỏi mở",
+            "Xử lý góc nhọn",
+            "Chốt bằng thời hạn thật"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 13.2."
+        },
+        {
+          "id": "c13-q07",
+          "text": "Câu hỏi nào giúp xác định keyperson?",
+          "options": [
+            "“Thông thường một booking bên mình được chốt như thế nào? Ai là người duyệt giá?”",
+            "“Bên mình có nhu cầu vận chuyển không ạ?”",
+            "“Anh có rảnh không ạ?”",
+            "“Công ty mình có website không ạ?”"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 13.3."
+        },
+        {
+          "id": "c13-q08",
+          "text": "Vì sao không nên hỏi “Bên mình có nhu cầu vận chuyển không ạ?”",
+          "options": [
+            "Câu hỏi dễ bị trả lời “không”",
+            "Câu hỏi quá dài",
+            "Câu hỏi vi phạm quy định",
+            "Câu hỏi quá chuyên môn"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 13.4."
+        },
+        {
+          "id": "c13-q09",
+          "text": "Mở đầu cuộc gọi bằng một tràng giới thiệu công ty thường dẫn đến điều gì?",
+          "options": [
+            "Khách cúp máy",
+            "Khách đồng ý gặp",
+            "Khách gửi email",
+            "Khách hỏi giá"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 13.4."
+        },
+        {
+          "id": "c13-q10",
+          "text": "Hậu quả của việc không ghi chép sau cuộc gọi là gì?",
+          "options": [
+            "Gọi lại lần 2 phải hỏi lại đúng những câu đã hỏi",
+            "Bị phạt doanh số",
+            "Mất số điện thoại khách",
+            "Không ảnh hưởng gì"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 13.4."
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "code": "14",
+      "part": "Phần II · Kỹ năng phải rèn",
+      "title": "Kỹ năng xử lý từ chối",
+      "sort": 14,
+      "questions": [
+        {
+          "id": "c14-q01",
+          "text": "Theo sách, nên coi lời từ chối của khách là gì?",
+          "options": [
+            "Lời yêu cầu cung cấp thêm thông tin",
+            "Dấu hiệu nên bỏ khách",
+            "Lời xúc phạm",
+            "Câu trả lời cuối cùng"
+          ],
+          "correct_index": 0,
+          "explanation": "Mở đầu Chương 14."
+        },
+        {
+          "id": "c14-q02",
+          "text": "“Bên anh có đối tác rồi.” thuộc dạng từ chối nào?",
+          "options": ["Hờ hững", "Hoài nghi", "Hiểu lầm", "Hạn chế"],
+          "correct_index": 0,
+          "explanation": "Mục 14.1: khách chưa thấy nhu cầu thay đổi; xử lý bằng câu hỏi khơi gợi và lý do nhỏ, dễ đồng ý."
+        },
+        {
+          "id": "c14-q03",
+          "text": "“Giá rẻ thế chắc có phí ẩn.” thuộc dạng nào và xử lý ra sao?",
+          "options": [
+            "Hoài nghi; đưa bằng chứng: khách hàng tương tự, báo giá minh bạch, mời đi thử một lô nhỏ",
+            "Hờ hững; xin email gửi bảng giá",
+            "Hiểu lầm; giải thích ngắn gọn bằng ví dụ",
+            "Hạn chế; thừa nhận điểm yếu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 14.1."
+        },
+        {
+          "id": "c14-q04",
+          "text": "“Forwarder nào cũng như nhau, chỉ khác giá.” thuộc dạng nào?",
+          "options": ["Hiểu lầm", "Hờ hững", "Hoài nghi", "Hạn chế"],
+          "correct_index": 0,
+          "explanation": "Mục 14.1: xử lý bằng giải thích ngắn gọn, đúng sự thật, bằng ví dụ cụ thể."
+        },
+        {
+          "id": "c14-q05",
+          "text": "Với dạng từ chối “Hạn chế” (ví dụ: “Bên em không có giá tốt tuyến Mỹ”), sales phải làm gì?",
+          "options": [
+            "Thừa nhận, chuyển sự chú ý sang lợi ích lớn hơn hoặc đưa phương án khác; tuyệt đối không nói dối",
+            "Khẳng định bên mình có giá tốt nhất",
+            "Lờ đi và chuyển chủ đề",
+            "Giảm giá thật sâu"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 14.1: uy tín quý hơn một lô hàng."
+        },
+        {
+          "id": "c14-q06",
+          "text": "Ba kỹ thuật cốt lõi xử lý từ chối là gì?",
+          "options": [
+            "Đặt câu hỏi thay vì chỉ chào hàng; xử lý “góc nhọn” – nói trước lời từ chối; luôn có kịch bản dự phòng",
+            "Giảm giá; tặng quà; hứa hẹn",
+            "Gọi lại; gửi email; nhắn Zalo",
+            "Thuyết phục; tranh luận; chốt"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 14.2."
+        },
+        {
+          "id": "c14-q07",
+          "text": "Xử lý “góc nhọn” là gì?",
+          "options": [
+            "Liệt kê trước những lời từ chối khách có thể đưa ra và chủ động xử lý trước khi khách nói",
+            "Tránh nói về điểm yếu của công ty",
+            "Hỏi câu khó vào cuối cuộc gặp",
+            "Gửi báo giá thấp hơn đối thủ"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 14.2."
+        },
+        {
+          "id": "c14-q08",
+          "text": "Khách báo bận khi hẹn gặp. Câu backup phù hợp là gì?",
+          "options": [
+            "“Vâng, hôm nay chị bận, em xin phép qua ngày mai chị nhé?”",
+            "“Vậy thôi em không làm phiền nữa.”",
+            "“Chị bận đến bao giờ ạ?”",
+            "“Em sẽ gửi báo giá rồi chị tự xem.”"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 14.2: đưa đề nghị khác, nhỏ hơn, dễ đồng ý hơn."
+        },
+        {
+          "id": "c14-q09",
+          "text": "Khách nói “Gửi email đi, anh xem sau.” Gợi ý xử lý là gì?",
+          "options": [
+            "Đồng ý và hỏi nhanh 2 câu: bên mình đi cảng nào, thường cont 20’ hay 40’, để báo giá sát nhất",
+            "Gửi ngay bảng giá chung",
+            "Cúp máy và chờ khách phản hồi",
+            "Đề nghị gặp ngay hôm nay"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 14.3."
+        },
+        {
+          "id": "c14-q10",
+          "text": "Khách nói “Giá bên em cao hơn bên anh đang đi.” Nên phản hồi thế nào?",
+          "options": [
+            "Hỏi giá đó đã gồm những phí nào, rồi so sánh trọn gói kể cả free time và phí đầu đến",
+            "Giảm giá ngay cho bằng",
+            "Nói đối thủ chắc có phí ẩn",
+            "Kết thúc cuộc gọi"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 14.3."
+        },
+        {
+          "id": "c14-q11",
+          "text": "Khách nói “Hiện chưa có hàng.” Nên phản hồi thế nào?",
+          "options": [
+            "Hỏi khoảng tháng mấy có đơn tiếp theo, xin liên hệ lại trước thời điểm đó 2 tuần để giữ chỗ và giá",
+            "Xóa khách khỏi danh sách",
+            "Gọi lại mỗi ngày",
+            "Gửi báo giá hằng ngày"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 14.3."
+        },
+        {
+          "id": "c14-q12",
+          "text": "Khách nói “Bên anh do nước ngoài chỉ định forwarder.” Nên phản hồi thế nào?",
+          "options": [
+            "Hỏi phần thủ tục hải quan và xe kéo đầu Việt Nam đang tự làm hay thuê ngoài; hoặc xin tên đối tác để agent cùng chào giá",
+            "Bỏ qua khách này",
+            "Thuyết phục khách đổi người mua",
+            "Báo giá cước chặng chính thấp hơn"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 14.3."
+        }
+      ]
+    },
+    {
+      "id": "c15",
+      "code": "15",
+      "part": "Phần II · Kỹ năng phải rèn",
+      "title": "Set up và gặp gỡ khách hàng",
+      "sort": 15,
+      "questions": [
+        {
+          "id": "c15-q01",
+          "text": "Mục tiêu quan trọng nhất của cuộc gặp khách là gì?",
+          "options": [
+            "Tạo tín nhiệm với khách",
+            "Chốt hợp đồng ngay",
+            "Gửi báo giá",
+            "Lấy danh thiếp"
+          ],
+          "correct_index": 0,
+          "explanation": "Mở đầu Chương 15: bạn càng chuẩn bị kỹ, khách càng tín nhiệm."
+        },
+        {
+          "id": "c15-q02",
+          "text": "Mục tiêu của cuộc gặp lần 1 là gì?",
+          "options": [
+            "Bắt đầu mối quan hệ, tạo tín nhiệm, khám phá nhu cầu",
+            "Thương lượng và chốt deal",
+            "Trình bày, báo giá, đề xuất chính sách",
+            "Ký hợp đồng"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 15.1."
+        },
+        {
+          "id": "c15-q03",
+          "text": "Ở cuộc gặp lần 4–5, mục tiêu là gì?",
+          "options": [
+            "Thương lượng thêm, củng cố tín nhiệm, chốt deal",
+            "Bắt đầu mối quan hệ",
+            "Khám phá nhu cầu",
+            "Giới thiệu công ty"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 15.1. Lần 2–3: trình bày, báo giá, đề xuất."
+        },
+        {
+          "id": "c15-q04",
+          "text": "Ba bước trong cuộc gặp theo đúng thứ tự là gì?",
+          "options": [
+            "Tạo không khí thoải mái → Tìm hiểu nhu cầu (đặt câu hỏi) → Trình bày năng lực Sunway",
+            "Trình bày năng lực → Báo giá → Chốt",
+            "Hỏi giá đang đi → Báo giá thấp hơn → Xin booking",
+            "Tặng quà → Mời ăn → Ký hợp đồng"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 15.3."
+        },
+        {
+          "id": "c15-q05",
+          "text": "Ở bước tạo không khí thoải mái, sales nên làm gì?",
+          "options": [
+            "Tìm điều để mở chuyện trong văn phòng, khen chân thành, cảm ơn khách dành thời gian, bàn về câu chuyện kinh doanh của khách",
+            "Trình bày bảng giá ngay",
+            "Hỏi ngay về công nợ",
+            "Kể về thành tích cá nhân"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 15.3, bước 1."
+        },
+        {
+          "id": "c15-q06",
+          "text": "Mạch dẫn dắt câu hỏi nên đi theo thứ tự nào?",
+          "options": [
+            "Chiến lược → tài chính → chuyên môn, nghiệp vụ → bán hàng → gia đình, sở thích",
+            "Gia đình → bán hàng → tài chính → chiến lược",
+            "Giá cước → công nợ → hãng tàu",
+            "Ngẫu nhiên theo cảm hứng"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 15.4."
+        },
+        {
+          "id": "c15-q07",
+          "text": "Vì sao cần thận trọng với câu hỏi bắt đầu bằng “Tại sao?”",
+          "options": [
+            "Dễ gây cảm giác phán xét, kẻ cả, khiến khách phòng thủ",
+            "Vì câu hỏi quá ngắn",
+            "Vì khách không hiểu",
+            "Vì vi phạm quy định"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 15.4: thay “Tại sao anh chọn bên đó?” bằng “Điều gì khiến anh hài lòng nhất khi làm với bên đó?”."
+        },
+        {
+          "id": "c15-q08",
+          "text": "Trước khi đặt câu hỏi, nên mở lời thế nào?",
+          "options": [
+            "“Để em tư vấn đúng nhất cho anh, em xin hỏi anh vài câu nhé.”",
+            "Hỏi thẳng không cần mở lời",
+            "“Anh trả lời nhanh giúp em.”",
+            "“Em hỏi theo quy định công ty.”"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 15.4: đa số con người dè chừng khi bị hỏi, nên câu hỏi cần tự nhiên, rõ lý do."
+        },
+        {
+          "id": "c15-q09",
+          "text": "Nhóm câu hỏi “Hướng tới nhu cầu” nhằm mục đích gì?",
+          "options": [
+            "Để khách kể chuyện, bộc lộ mục tiêu, kỳ vọng, lo lắng, nỗi sợ",
+            "Thu thập dữ liệu để báo giá",
+            "Hiểu tầm nhìn, chiến lược công ty",
+            "Xác định địa chỉ kho"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 15.4, bảng ba nhóm câu hỏi."
+        },
+        {
+          "id": "c15-q10",
+          "text": "Sau cuộc gặp, trong bao lâu nên gửi email/Zalo cảm ơn và tóm tắt bước tiếp theo?",
+          "options": [
+            "Trong 24 giờ",
+            "Trong 1 tuần",
+            "Khi khách hỏi",
+            "Không cần gửi"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 15.5."
+        },
+        {
+          "id": "c15-q11",
+          "text": "Khi đi gặp khách, nên mang theo những gì?",
+          "options": [
+            "Profile Sunway, bảng giá tuyến khách quan tâm, danh thiếp, sổ ghi chép",
+            "Chỉ điện thoại",
+            "Hợp đồng đã ký sẵn",
+            "Quà tặng giá trị cao"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 15.2."
+        }
+      ]
+    },
+    {
+      "id": "c16",
+      "code": "16",
+      "part": "Phần II · Kỹ năng phải rèn",
+      "title": "Chốt sales và chăm sóc khách hàng",
+      "sort": 16,
+      "questions": [
+        {
+          "id": "c16-q01",
+          "text": "Khách chốt khi hai điều nào cùng đạt?",
+          "options": [
+            "Khách thấy giá và chính sách hợp lý, và khách tin bạn",
+            "Giá rẻ nhất và giao nhanh nhất",
+            "Có quà tặng và chiết khấu",
+            "Gặp đủ 5 lần và gửi đủ báo giá"
+          ],
+          "correct_index": 0,
+          "explanation": "Mở đầu Chương 16, Hình 21: hai trụ cầu."
+        },
+        {
+          "id": "c16-q02",
+          "text": "Dấu hiệu nào cho thấy khách sẵn sàng chốt?",
+          "options": [
+            "Khách hỏi chi tiết lịch tàu gần nhất, cut-off, quy trình gửi chứng từ",
+            "Khách không trả lời tin nhắn",
+            "Khách nói đã có đối tác",
+            "Khách yêu cầu gửi email"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 16.2: cả hỏi công nợ, so sánh từng khoản phí, giới thiệu bạn với kế toán, kho."
+        },
+        {
+          "id": "c16-q03",
+          "text": "Khi thấy tín hiệu khách sẵn sàng chốt, sales nên làm gì?",
+          "options": [
+            "Dừng thuyết trình, đề nghị bước cụ thể (ví dụ giữ chỗ tàu thứ Tư ngay hôm nay)",
+            "Tiếp tục thuyết trình thêm",
+            "Gửi thêm tài liệu",
+            "Chờ khách tự đề nghị"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 16.2."
+        },
+        {
+          "id": "c16-q04",
+          "text": "“Anh muốn đi tàu thứ Tư giá tốt hay tàu thứ Bảy đi thẳng?” là kỹ thuật chốt nào?",
+          "options": [
+            "Chốt bằng lựa chọn",
+            "Chốt bằng lô thử",
+            "Chốt bằng thời hạn thật",
+            "Chốt bằng tổng giá trị"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 16.3: cả hai phương án đều là “có”."
+        },
+        {
+          "id": "c16-q05",
+          "text": "Kỹ thuật “Chốt bằng thời hạn thật” cần lưu ý gì?",
+          "options": [
+            "Chỉ dùng khi đúng sự thật",
+            "Luôn tạo áp lực thời gian",
+            "Dùng với mọi khách",
+            "Chỉ dùng cuối tháng"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 16.3."
+        },
+        {
+          "id": "c16-q06",
+          "text": "“Anh cho em làm một lô để anh đánh giá” là kỹ thuật chốt nào?",
+          "options": [
+            "Chốt bằng lô thử – giảm rủi ro cho khách",
+            "Chốt bằng lựa chọn",
+            "Chốt bằng tổng giá trị",
+            "Chốt bằng thời hạn thật"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 16.3."
+        },
+        {
+          "id": "c16-q07",
+          "text": "Chính sách hoa hồng, chiết khấu cho khách phải tuân thủ nguyên tắc nào?",
+          "options": [
+            "Là chính sách cho doanh nghiệp khách, được quản lý duyệt, thể hiện trên hợp đồng/chứng từ và hạch toán đầy đủ",
+            "Sales tự thỏa thuận riêng với nhân viên khách",
+            "Chi ngoài sổ sách để giữ khách",
+            "Không cần báo quản lý nếu khoản nhỏ"
+          ],
+          "correct_index": 0,
+          "explanation": "Nguyên tắc minh bạch, Mục 16.1."
+        },
+        {
+          "id": "c16-q08",
+          "text": "Vì sao sales không được chi khoản cá nhân ngoài sổ sách cho nhân viên của khách để đổi lấy booking?",
+          "options": [
+            "Bộ luật Hình sự 2015 đã mở rộng tội đưa/nhận hối lộ sang khu vực doanh nghiệp ngoài nhà nước",
+            "Vì công ty không có ngân sách",
+            "Vì khách không thích",
+            "Vì hải quan sẽ kiểm tra"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 16.1."
+        },
+        {
+          "id": "c16-q09",
+          "text": "Với lô hàng đầu tiên, việc nào cần làm trước khi phát hành vận đơn?",
+          "options": [
+            "Kiểm tra vận đơn nháp cùng khách",
+            "Thu tiền trước",
+            "Gửi hóa đơn",
+            "Xin giới thiệu khách mới"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 16.4."
+        },
+        {
+          "id": "c16-q10",
+          "text": "Quy trình xử lý sự cố theo đúng thứ tự là gì?",
+          "options": [
+            "Báo khách ngay → đưa 1–2 phương án → phối hợp nội bộ → cập nhật khách định kỳ → họp rút kinh nghiệm, thống nhất trách nhiệm chi phí",
+            "Họp rút kinh nghiệm → báo khách → xử lý",
+            "Tìm người có lỗi → báo khách → xử lý",
+            "Xử lý xong mới báo khách"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 16.5."
+        },
+        {
+          "id": "c16-q11",
+          "text": "Khi nào nên hỏi khách về các tuyến, mặt hàng, dịch vụ khác mà bạn chưa làm?",
+          "options": [
+            "Sau 2–3 lô suôn sẻ",
+            "Ngay cuộc gọi đầu tiên",
+            "Khi khách phàn nàn",
+            "Không bao giờ"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 16.6."
+        },
+        {
+          "id": "c16-q12",
+          "text": "Theo sách, nhóm khách nào dễ chốt nhất?",
+          "options": [
+            "Khách được giới thiệu",
+            "Khách từ data mua",
+            "Khách gọi lạnh",
+            "Khách đã có đối tác lâu năm"
+          ],
+          "correct_index": 0,
+          "explanation": "Mục 16.6: đây là điểm cuối của pipeline để bắt đầu một vòng mới."
+        }
+      ]
+    },
+    {
+      "id": "c17",
+      "code": "PL",
+      "part": "Phụ lục",
+      "title": "Lộ trình 8 tuần và 10 câu nói cần nhớ",
+      "sort": 17,
+      "questions": [
+        {
+          "id": "c17-q01",
+          "text": "Theo lộ trình 8 tuần, sales mới tập trung rèn telesales 20 cuộc/ngày vào tuần nào?",
+          "options": ["Tuần 3", "Tuần 1", "Tuần 6", "Tuần 8"],
+          "correct_index": 0,
+          "explanation": "Phụ lục A: tuần 3 học Chương 6, rèn Chương 13, đầu ra là kịch bản gọi cá nhân."
+        },
+        {
+          "id": "c17-q02",
+          "text": "Ở tuần 6 của lộ trình, sales mới rèn kỹ năng gì?",
+          "options": [
+            "Gặp khách (đi cùng sales senior), đầu ra là 2 report sau gặp khách",
+            "Xây danh sách 100 doanh nghiệp",
+            "Chốt sales, lô hàng đầu tiên",
+            "Làm quen CRM"
+          ],
+          "correct_index": 0,
+          "explanation": "Phụ lục A."
+        },
+        {
+          "id": "c17-q03",
+          "text": "Checklist trước mỗi ngày làm việc yêu cầu danh sách gọi tối thiểu bao nhiêu số?",
+          "options": ["20 số, đã lọc", "5 số", "50 số", "100 số"],
+          "correct_index": 0,
+          "explanation": "Phụ lục D."
+        },
+        {
+          "id": "c17-q04",
+          "text": "Hoàn thành câu: “Chìa khóa thành công là…”",
+          "options": [
+            "Thực hành bán hàng, bán hàng, bán hàng",
+            "Có nhiều mối quan hệ",
+            "Giá rẻ nhất thị trường",
+            "Có bằng cấp tốt"
+          ],
+          "correct_index": 0,
+          "explanation": "Phụ lục E, câu 1."
+        },
+        {
+          "id": "c17-q05",
+          "text": "Hoàn thành câu: “Khi có trouble: trouble không phải là vấn đề, mà vấn đề thực sự nằm ở…”",
+          "options": [
+            "Cách bạn giải quyết vấn đề",
+            "Người gây ra lỗi",
+            "Chi phí phát sinh",
+            "Hãng tàu"
+          ],
+          "correct_index": 0,
+          "explanation": "Phụ lục E, câu 8."
+        },
+        {
+          "id": "c17-q06",
+          "text": "Hoàn thành câu: “Trong thị trường cạnh tranh, việc của bạn là…”",
+          "options": [
+            "Bám sát khách hàng",
+            "Giảm giá liên tục",
+            "Tìm khách mới thay khách cũ",
+            "Chờ khách liên hệ"
+          ],
+          "correct_index": 0,
+          "explanation": "Phụ lục E, câu 6."
+        },
+        {
+          "id": "c17-q07",
+          "text": "Sunway định vị là “vua” forwarder cho nhóm khách hàng nào?",
+          "options": [
+            "SMEs (doanh nghiệp nhỏ và vừa)",
+            "Tập đoàn đa quốc gia",
+            "Doanh nghiệp nhà nước",
+            "Khách lẻ cá nhân"
+          ],
+          "correct_index": 0,
+          "explanation": "Phụ lục E, câu 10."
+        }
+      ]
+    }
+  ]
+}
